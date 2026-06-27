@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "profil": "Profile",
+    "services": "Services",
+    "biens": "Properties",
+    "avis": "Reviews",
+    "contact": "Contact",
+    "cta": "WhatsApp →",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
+  },
+  "hero": {
+    "eyebrow": "Real Estate Agent · Concierge · French Riviera",
+    "title": "Your real estate\non the French Riviera.",
+    "subtitle_es": "Hablo español. Conozco el mercado.",
+    "subtitle_en": "Bilingual expert. Local market insider.",
+    "body": "Independent real estate agent in Nice, I guide you in <em>English, French and Spanish</em> to buy, sell or manage your property on the French Riviera — from first viewing to key handover.",
+    "cta_primary": "Contact me",
+    "cta_secondary": "📄 Free buyer's guide",
+    "lang_badge": "🇫🇷 Français · 🇪🇸 Español · 🇬🇧 English",
+    "scroll_hint": "Discover"
+  },
+  "stats": {
+    "reviews_score": "4.9",
+    "reviews_suffix": "/5",
+    "reviews_label": "18 verified reviews",
+    "properties_count": "10+",
+    "properties_label": "Properties managed",
+    "zone_code": "06",
+    "zone_label": "French Riviera"
+  },
+  "profile": {
+    "eyebrow": "About me",
+    "title": "A local expert,\nin your language.",
+    "name": "Élodie Fleury",
+    "badge": "immo_elo · Nice 06",
+    "p1": "Independent real estate agent in Nice (partner network), I'm also founder of <strong>YourBnB06</strong>, my seasonal property management concierge service on the French Riviera.",
+    "p2": "What sets me apart: I speak fluent Spanish and have an active network in the Hispanic community. I also welcome English-speaking buyers and investors looking for their piece of the Riviera.",
+    "tag_fr": "🇫🇷 Français",
+    "tag_es": "🇪🇸 Español",
+    "tag_en": "🇬🇧 English",
+    "tag_reviews": "4.9/5 · 18 reviews",
+    "tag_zones": "Nice · Antibes · Cagnes",
+    "quote_fr_label": "French client",
+    "quote_fr_text": "\"She has rare energy — she never gives up. She sold our apartment when every other agent had failed.\"",
+    "quote_fr_author": "Olivier Z. · Nice North · April 2026",
+    "quote_es_label": "Spanish-speaking client",
+    "quote_es_text": "\"Élodie speaks Spanish, knows the Nice market inside out and guided us every step. Without her, it would have been very hard from Spain.\"",
+    "quote_es_author": "Miguel R. · Antibes · 2026"
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "What I do for you",
+    "lang_badge": "FR · ES · EN",
+    "vente_title": "Property sale",
+    "vente_desc": "Free valuation, property staging, multi-platform listing, buyer selection. With you until the final notary signature.",
+    "achat_title": "Purchase & investment",
+    "achat_desc": "Targeted search, full support for non-residents: legal steps, notary, financing options.",
+    "concierge_title": "Concierge YourBnB06",
+    "concierge_desc": "Full short-term rental management: listing, bookings, premium check-in, hotel-grade upkeep. 20% flat fee."
+  },
+  "gallery": {
+    "eyebrow": "Property selection",
+    "title": "Nice, Antibes, Cagnes,\nBiot — I know every street.",
+    "villa_city": "Antibes · €599,000",
+    "villa_title": "4-bed house · 102m² · garden",
+    "appt_city": "Nice · €275,000",
+    "appt_title": "3-bed apartment",
+    "terrain_city": "Aspremont · €275,000",
+    "terrain_title": "Land 1,500m²",
+    "interieur_city": "Cagnes · €194,500",
+    "interieur_title": "2-bed · 42m²",
+    "luxe_city": "Biot · Exclusive",
+    "luxe_title": "8-bed villa · 295m²"
+  },
+  "zones": {
+    "eyebrow": "Coverage area",
+    "query": "I'm where you need me.",
+    "nice_dept": "06200 · HQ",
+    "antibes_dept": "06600 · Juan-les-Pins",
+    "cagnes_dept": "06800 · sur-Mer",
+    "biot_dept": "06410 · hinterland"
+  },
+  "reviews": {
+    "eyebrow": "Client reviews",
+    "title": "What my clients say",
+    "score": "4.9",
+    "score_label": "★★★★★ — 18 verified reviews",
+    "score_source": "Google My Business · Immodvisor · partner network",
+    "r1_text": "\"She is deeply involved, has rare energy, is competent and responsive. She sold my apartment when every other agent had failed.\"",
+    "r1_author": "Olivier Z.",
+    "r1_type": "Sale · Nice North · April 2026",
+    "r2_text": "\"Her client portfolio made the difference, with serious buyers from the very first viewings. Sale closed in a few days.\"",
+    "r2_author": "Jean-Claude B.",
+    "r2_type": "Sale · April 2026",
+    "r3_text": "\"Out of 4 properties to sell, Élodie helped sell 2 in perfect collaboration. Exemplary professionalism and responsiveness.\"",
+    "r3_author": "Bruno & Marilyn",
+    "r3_type": "Antibes · April 2026",
+    "r4_text": "\"I handed my villa management to Élodie. Every time I return, it's even cleaner than with my usual housekeeper.\"",
+    "r4_author": "Marine",
+    "r4_type": "Concierge · Villa Fabron"
+  },
+  "guide": {
+    "eyebrow": "Free resource",
+    "title": "Buyer's guide for\nthe French Riviera",
+    "badge": "Bilingual guide FR/ES · 8 pages · 2026",
+    "heading": "Everything you need to know\nbefore buying in France",
+    "desc": "Written for non-resident buyers — clear, no-nonsense, bilingual FR/ES.",
+    "item1": "Step-by-step buying process (offer → final deed)",
+    "item2": "Notary fees and real costs to anticipate",
+    "item3": "Regulations for non-EU and EU non-residents",
+    "item4": "Price per m² by district — Nice, Antibes, Cagnes",
+    "item5": "The 5 most common mistakes foreign buyers make",
+    "cta": "📄 Get the free guide"
+  },
+  "cta": {
+    "title": "Your project starts\nwith a conversation.",
+    "subtitle": "Je réponds en français, espagnol et anglais.",
+    "body": "Buying, selling, rental management — I reply within 2 hours in English, French or Spanish.",
+    "whatsapp_label": "WhatsApp (FR · ES · EN)",
+    "email_label": "Email",
+    "instagram_label": "Instagram"
+  },
+  "footer": {
+    "legal": "© 2026 Élodie Fleury — Independent agent · RSAC Nice n° 925 155 855",
+    "yourbnb": "YourBnB06 — Premium concierge Nice · yourbnb06.fr"
+  },
+  "metadata": {
+    "title": "Élodie Fleury — Bilingual Real Estate Agent Nice · French Riviera",
+    "description": "Independent real estate agent in Nice, fluent in French, Spanish and English. Buy, sell and short-term rental management on the French Riviera. 4.9/5 · 18 verified reviews."
+  }
+}

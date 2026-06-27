@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Élodie Fleury — Site Côte d'Azur
 
-## Getting Started
+Site vitrine trilingue (FR/ES/EN) pour Élodie Fleury, agente immobilière bilingue à Nice.
 
-First, run the development server:
+## Commandes locales
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000
+npm run build
+npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Variables d'environnement
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Copier `.env.example` vers `.env.local` :
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```env
+NEXT_PUBLIC_SITE_URL=https://elodiecoteazur.fr
+NEXT_PUBLIC_WHATSAPP_NUMBER=33778235486
+NEXT_PUBLIC_PLAUSIBLE_DOMAIN=elodiecoteazur.fr
+```
 
-## Learn More
+## Ajouter une photo de bien
 
-To learn more about Next.js, take a look at the following resources:
+1. Placer l'image dans `public/images/properties/`
+2. Mettre à jour le tableau `properties` dans `components/sections/Gallery.tsx`
+3. Ajouter les traductions (`city`, `title`) dans `i18n/messages/fr.json`, `es.json`, `en.json`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Modifier une traduction
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Éditer les fichiers dans `i18n/messages/` :
+- `fr.json` — français (locale par défaut, URL `/`)
+- `es.json` — espagnol (URL `/es`)
+- `en.json` — anglais (URL `/en`)
 
-## Deploy on Vercel
+## Changer le numéro WhatsApp
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Mettre à jour `NEXT_PUBLIC_WHATSAPP_NUMBER` dans `.env.local`
+2. Ou modifier la valeur par défaut dans `lib/config.ts`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Stack
+
+- Next.js 14 · TypeScript · Tailwind CSS
+- next-intl (i18n) · Framer Motion · next/image
+- Déploiement : Vercel
+
+## URLs
+
+| Locale | URL |
+|--------|-----|
+| FR | `/` |
+| ES | `/es` |
+| EN | `/en` |
