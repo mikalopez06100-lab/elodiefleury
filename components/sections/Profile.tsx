@@ -33,7 +33,7 @@ export default function Profile() {
               alt={t("name")}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover brightness-[1.05] contrast-[0.95] transition-transform duration-[7000ms] ease-out-expo hover:scale-[1.04]"
+              className="object-cover object-top transition-transform duration-[7000ms] ease-out-expo hover:scale-[1.04]"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-marine/55 to-transparent [background-position:55%]" />
             <div className="absolute bottom-[18px] left-[18px] rounded bg-sable px-4 py-2.5 text-[0.72rem] font-bold uppercase tracking-wide text-marine">
