@@ -4,7 +4,7 @@ export const siteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://elodiecoteazur.fr",
   whatsappNumber:
     process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "33778235486",
-  email: "elodie@yourbnb06.fr",
+  email: "hello@elodiefleury.fr",
   instagram: "https://www.instagram.com/immo_elo",
   yourbnb: "https://www.yourbnb06.fr",
   gmb: "https://g.page/r/",
