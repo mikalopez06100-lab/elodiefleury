@@ -1,6 +1,7 @@
 export const siteConfig = {
-  name: "Élodie Fleury",
-  tagline: "Côte d'Azur",
+  name: "Elodie Fleury",
+  tagline: "Immobilier · Conciergerie",
+  slogan: "Tu casa, mi pasión",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://elodiecoteazur.fr",
   whatsappNumber:
     process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "33778235486",
@@ -14,9 +15,9 @@ export const siteConfig = {
 } as const;
 
 export const whatsappMessages = {
-  fr: "Bonjour Élodie, je souhaite recevoir le guide acquéreur bilingue.",
-  es: "Hola Élodie, me gustaría recibir la guía para compradores bilingüe.",
-  en: "Hello Élodie, I would like to receive the bilingual buyer guide.",
+  fr: "Bonjour Elodie, je souhaite recevoir le guide acquéreur bilingue.",
+  es: "Hola Elodie, me gustaría recibir la guía para compradores bilingüe.",
+  en: "Hello Elodie, I would like to receive the bilingual buyer guide.",
 } as const;
 
 export function whatsappUrl(

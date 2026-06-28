@@ -27,13 +27,13 @@ export default function Gallery() {
   const t = useTranslations("gallery");
 
   return (
-    <section id="biens" className="bg-marine-deep py-[72px] md:py-24">
+    <section id="biens" className="bg-tinta py-[72px] md:py-24">
       <div className="mx-auto max-w-[1160px] px-5 md:px-10">
         <RevealOnScroll>
-          <span className="mb-3.5 block text-[0.66rem] font-semibold uppercase tracking-[0.15em] text-white/38">
+          <span className="mb-3.5 block text-[0.66rem] font-semibold uppercase tracking-[0.15em] text-sol/60">
             {t("eyebrow")}
           </span>
-          <h2 className="font-display text-section font-semibold leading-[1.08] tracking-tight text-white">
+          <h2 className="font-display text-section font-semibold leading-[1.08] tracking-tight text-cal">
             <Multiline text={t("title")} />
           </h2>
         </RevealOnScroll>
@@ -52,11 +52,11 @@ export default function Gallery() {
                   alt={t(`${prop.key}_title`)}
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-cover brightness-[1.05] contrast-[0.95] transition-transform duration-700 ease-out-expo group-hover:scale-[1.07]"
+                  className="object-cover brightness-[1.02] contrast-[0.95] transition-transform duration-700 ease-out-expo group-hover:scale-[1.07]"
                 />
-                <div className="absolute inset-0 bg-marine-deep/32 transition-colors group-hover:bg-marine-deep/12" />
+                <div className="absolute inset-0 bg-tinta/32 transition-colors group-hover:bg-tinta/12" />
                 <div className="absolute bottom-3.5 left-3.5 text-white">
-                  <span className="mb-0.5 block font-sans text-[0.62rem] uppercase tracking-wider text-sable">
+                  <span className="mb-0.5 block font-sans text-[0.62rem] uppercase tracking-wider text-sol">
                     {t(`${prop.key}_city`)}
                   </span>
                   <span className="font-display text-[1.05rem] italic opacity-88">

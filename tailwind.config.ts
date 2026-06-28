@@ -9,24 +9,35 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        marine: {
-          DEFAULT: "#0E2C45",
-          mid: "#174268",
-          deep: "#081c2e",
+        terracota: {
+          DEFAULT: "#BE5B42",
+          light: "#EFD0B6",
         },
-        sable: {
-          DEFAULT: "#C8A97A",
-          soft: "#F0E6D5",
+        sol: {
+          DEFAULT: "#D9A152",
+          soft: "#EFE2D0",
         },
-        blanc: "#FDFAF6",
-        gris: {
-          DEFAULT: "#6B7A8D",
-          light: "#EEF2F7",
+        olivo: {
+          DEFAULT: "#5E6B4A",
         },
+        mar: {
+          DEFAULT: "#2C4A52",
+          deep: "#1E3439",
+        },
+        cal: {
+          DEFAULT: "#F5EEE6",
+          dark: "#EDE6DA",
+        },
+        tinta: {
+          DEFAULT: "#2A2622",
+          muted: "#48423a",
+        },
+        line: "#E3D6C5",
       },
       fontFamily: {
         display: ["var(--font-display)", "Georgia", "serif"],
         sans: ["var(--font-sans)", "-apple-system", "sans-serif"],
+        script: ["var(--font-script)", "cursive"],
       },
       fontSize: {
         "hero-fr": [
@@ -36,6 +47,10 @@ const config: Config = {
         "hero-es": [
           "clamp(1.5rem,3.2vw,2.7rem)",
           { lineHeight: "1.3", letterSpacing: "0.01em" },
+        ],
+        "hero-slogan": [
+          "clamp(1.8rem,4vw,2.8rem)",
+          { lineHeight: "1.2" },
         ],
         section: [
           "clamp(1.9rem,4vw,3.1rem)",

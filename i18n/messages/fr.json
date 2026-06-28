@@ -10,7 +10,7 @@
     "menuClose": "Fermer le menu"
   },
   "hero": {
-    "eyebrow": "Agent immobilier · Conciergerie · Côte d'Azur",
+    "eyebrow": "Immobilier · Conciergerie · Côte d'Azur",
     "title": "Votre immobilier\nsur la Côte d'Azur.",
     "subtitle_es": "Hablo español. Conozco el mercado.",
     "subtitle_en": "Bilingual expert. Local market insider.",
@@ -32,7 +32,7 @@
   "profile": {
     "eyebrow": "Qui suis-je · Quién soy",
     "title": "Une agente de terrain,\ndans votre langue.",
-    "name": "Élodie Fleury",
+    "name": "Elodie Fleury",
     "badge": "immo_elo · Nice 06",
     "p1": "Agente immobilière indépendante à Nice (réseau partenaire), je suis aussi fondatrice de <strong>YourBnB06</strong>, ma conciergerie de gestion saisonnière sur la Côte d'Azur.",
     "p2": "Ce qui me distingue : je parle couramment l'espagnol et dispose d'un réseau actif dans la communauté hispanophone. Je comprends les attentes et codes des acquéreurs espagnols et latino-américains.",
@@ -113,6 +113,32 @@
     "item5": "Les 5 erreurs les plus fréquentes des acheteurs étrangers",
     "cta": "📄 Recevoir le guide gratuitement"
   },
+  "guideModal": {
+    "eyebrow": "Guide gratuit · 8 pages",
+    "title": "Recevoir le guide acquéreur",
+    "subtitle": "Bilingue FR/ES — envoyé par email en quelques minutes.",
+    "name_label": "Nom complet",
+    "name_placeholder": "Maria Garcia",
+    "email_label": "Email",
+    "email_placeholder": "maria@exemple.com",
+    "phone_label": "Téléphone",
+    "dial_label": "Indicatif pays",
+    "phone_placeholder": "6 12 34 56 78",
+    "consent": "J'accepte de recevoir le guide et des conseils immobiliers par email. Désinscription possible à tout moment.",
+    "privacy_note": "Vos données sont traitées conformément au RGPD. Jamais revendues.",
+    "submit": "Recevoir le guide",
+    "submitting": "Envoi en cours…",
+    "success_title": "C'est envoyé !",
+    "success_body": "Consultez votre boîte mail — le guide PDF arrive dans quelques minutes.",
+    "error_generic": "Une erreur est survenue. Réessayez dans un instant ou contactez-nous sur WhatsApp.",
+    "close": "Fermer",
+    "errors": {
+      "name": "Indiquez votre nom (2 caractères minimum).",
+      "email": "Indiquez une adresse email valide.",
+      "phone": "Indiquez un numéro de téléphone valide.",
+      "consent": "Veuillez accepter pour recevoir le guide."
+    }
+  },
   "cta": {
     "title": "Votre projet commence\npar une conversation.",
     "subtitle": "Su proyecto empieza con una conversación.",
@@ -122,11 +148,11 @@
     "instagram_label": "Instagram"
   },
   "footer": {
-    "legal": "© 2026 Élodie Fleury — Agente commerciale EI · RSAC Nice n° 925 155 855",
+    "legal": "© 2026 Elodie Fleury — Agente commerciale EI · RSAC Nice n° 925 155 855",
     "yourbnb": "YourBnB06 — Conciergerie premium Nice · yourbnb06.fr"
   },
   "metadata": {
-    "title": "Élodie Fleury — Agent immobilier bilingue Nice · Côte d'Azur",
-    "description": "Agente immobilière indépendante à Nice, bilingue français-espagnol. Vente, achat et conciergerie saisonnière à Nice, Antibes, Cagnes-sur-Mer. 4,9/5 · 18 avis vérifiés."
+    "title": "Elodie Fleury — Immobilier & Conciergerie · Côte d'Azur",
+    "description": "Agente immobilière indépendante à Nice, bilingue français-espagnol. Vente, achat et conciergerie saisonnière à Nice, Antibes, Cagnes-sur-Mer. Tu casa, mi pasión."
   }
 }

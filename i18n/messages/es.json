@@ -10,7 +10,7 @@
     "menuClose": "Cerrar menú"
   },
   "hero": {
-    "eyebrow": "Agente inmobiliaria · Conciergería · Costa Azul",
+    "eyebrow": "Inmobiliaria · Conciergería · Costa Azul",
     "title": "Su inmobiliaria\nen la Costa Azul.",
     "subtitle_es": "Hablo español. Conozco el mercado.",
     "subtitle_en": "Bilingual expert. Local market insider.",
@@ -32,7 +32,7 @@
   "profile": {
     "eyebrow": "Quién soy · Qui suis-je",
     "title": "Una agente experta,\nen su idioma.",
-    "name": "Élodie Fleury",
+    "name": "Elodie Fleury",
     "badge": "immo_elo · Nice 06",
     "p1": "Agente inmobiliaria independiente en Niza (red asociada), también soy fundadora de <strong>YourBnB06</strong>, mi conserjería de gestión vacacional en la Costa Azul.",
     "p2": "Lo que me distingue: hablo español con fluidez y tengo una red activa en la comunidad hispanohablante. Entiendo las expectativas y códigos de los compradores españoles y latinoamericanos.",
@@ -113,6 +113,32 @@
     "item5": "Los 5 errores más frecuentes de los compradores extranjeros",
     "cta": "📄 Recibir la guía gratis"
   },
+  "guideModal": {
+    "eyebrow": "Guía gratuita · 8 páginas",
+    "title": "Recibir la guía del comprador",
+    "subtitle": "Bilingüe FR/ES — enviada por email en pocos minutos.",
+    "name_label": "Nombre completo",
+    "name_placeholder": "Maria Garcia",
+    "email_label": "Email",
+    "email_placeholder": "maria@ejemplo.com",
+    "phone_label": "Teléfono",
+    "dial_label": "Prefijo internacional",
+    "phone_placeholder": "612 34 56 78",
+    "consent": "Acepto recibir la guía y consejos inmobiliarios por email. Puedo darme de baja en cualquier momento.",
+    "privacy_note": "Sus datos se tratan conforme al RGPD. Nunca se revenden.",
+    "submit": "Recibir la guía",
+    "submitting": "Enviando…",
+    "success_title": "¡Enviado!",
+    "success_body": "Revise su bandeja de entrada — la guía PDF llegará en unos minutos.",
+    "error_generic": "Ha ocurrido un error. Inténtelo de nuevo o contáctenos por WhatsApp.",
+    "close": "Cerrar",
+    "errors": {
+      "name": "Indique su nombre (mínimo 2 caracteres).",
+      "email": "Indique un email válido.",
+      "phone": "Indique un número de teléfono válido.",
+      "consent": "Debe aceptar para recibir la guía."
+    }
+  },
   "cta": {
     "title": "Su proyecto empieza\ncon una conversación.",
     "subtitle": "Votre projet commence par une conversation.",
@@ -122,11 +148,11 @@
     "instagram_label": "Instagram"
   },
   "footer": {
-    "legal": "© 2026 Élodie Fleury — Agente comercial EI · RSAC Nice n° 925 155 855",
+    "legal": "© 2026 Elodie Fleury — Agente comercial EI · RSAC Nice n° 925 155 855",
     "yourbnb": "YourBnB06 — Conserjería premium Niza · yourbnb06.fr"
   },
   "metadata": {
-    "title": "Élodie Fleury — Agente inmobiliaria bilingüe Niza · Costa Azul",
-    "description": "Agente inmobiliaria independiente en Niza, bilingüe francés-español. Compra, venta y conserjería vacacional en Niza, Antibes, Cagnes. 4,9/5 · 18 reseñas verificadas."
+    "title": "Elodie Fleury — Inmobiliaria & Conciergería · Costa Azul",
+    "description": "Agente inmobiliaria independiente en Niza, bilingüe francés-español. Compra, venta y conserjería vacacional en Niza, Antibes, Cagnes. Tu casa, mi pasión."
   }
 }

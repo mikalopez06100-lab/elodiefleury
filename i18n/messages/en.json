@@ -10,7 +10,7 @@
     "menuClose": "Close menu"
   },
   "hero": {
-    "eyebrow": "Real Estate Agent · Concierge · French Riviera",
+    "eyebrow": "Real Estate · Concierge · French Riviera",
     "title": "Your real estate\non the French Riviera.",
     "subtitle_es": "Hablo español. Conozco el mercado.",
     "subtitle_en": "Bilingual expert. Local market insider.",
@@ -32,7 +32,7 @@
   "profile": {
     "eyebrow": "About me",
     "title": "A local expert,\nin your language.",
-    "name": "Élodie Fleury",
+    "name": "Elodie Fleury",
     "badge": "immo_elo · Nice 06",
     "p1": "Independent real estate agent in Nice (partner network), I'm also founder of <strong>YourBnB06</strong>, my seasonal property management concierge service on the French Riviera.",
     "p2": "What sets me apart: I speak fluent Spanish and have an active network in the Hispanic community. I also welcome English-speaking buyers and investors looking for their piece of the Riviera.",
@@ -113,6 +113,32 @@
     "item5": "The 5 most common mistakes foreign buyers make",
     "cta": "📄 Get the free guide"
   },
+  "guideModal": {
+    "eyebrow": "Free guide · 8 pages",
+    "title": "Get the buyer's guide",
+    "subtitle": "Bilingual FR/ES — delivered by email within minutes.",
+    "name_label": "Full name",
+    "name_placeholder": "Maria Garcia",
+    "email_label": "Email",
+    "email_placeholder": "maria@example.com",
+    "phone_label": "Phone",
+    "dial_label": "Country code",
+    "phone_placeholder": "612 345 678",
+    "consent": "I agree to receive the guide and property advice by email. Unsubscribe anytime.",
+    "privacy_note": "Your data is processed in compliance with GDPR. Never sold.",
+    "submit": "Get the guide",
+    "submitting": "Sending…",
+    "success_title": "Sent!",
+    "success_body": "Check your inbox — the PDF guide will arrive within a few minutes.",
+    "error_generic": "Something went wrong. Please try again or contact us on WhatsApp.",
+    "close": "Close",
+    "errors": {
+      "name": "Please enter your name (2 characters minimum).",
+      "email": "Please enter a valid email address.",
+      "phone": "Please enter a valid phone number.",
+      "consent": "Please accept to receive the guide."
+    }
+  },
   "cta": {
     "title": "Your project starts\nwith a conversation.",
     "subtitle": "Je réponds en français, espagnol et anglais.",
@@ -122,11 +148,11 @@
     "instagram_label": "Instagram"
   },
   "footer": {
-    "legal": "© 2026 Élodie Fleury — Independent agent · RSAC Nice n° 925 155 855",
+    "legal": "© 2026 Elodie Fleury — Independent agent · RSAC Nice n° 925 155 855",
     "yourbnb": "YourBnB06 — Premium concierge Nice · yourbnb06.fr"
   },
   "metadata": {
-    "title": "Élodie Fleury — Bilingual Real Estate Agent Nice · French Riviera",
-    "description": "Independent real estate agent in Nice, fluent in French, Spanish and English. Buy, sell and short-term rental management on the French Riviera. 4.9/5 · 18 verified reviews."
+    "title": "Elodie Fleury — Real Estate & Concierge · French Riviera",
+    "description": "Independent real estate agent in Nice, fluent in French, Spanish and English. Buy, sell and short-term rental management on the French Riviera. Tu casa, mi pasión."
   }
 }

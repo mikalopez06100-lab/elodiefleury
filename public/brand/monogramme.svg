@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-label="Elodie Fleury — monogramme EF">
+  <title>Elodie Fleury — monogramme</title>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&amp;display=swap');
+      .mono { font-family:'Cormorant Garamond', Georgia, serif; font-weight:600; letter-spacing:-3px; fill:#2A2622; }
+    </style>
+  </defs>
+  <circle cx="100" cy="100" r="92" fill="none" stroke="#BE5B42" stroke-width="3"/>
+  <text x="100" y="134" text-anchor="middle" font-size="86" class="mono">EF</text>
+</svg>

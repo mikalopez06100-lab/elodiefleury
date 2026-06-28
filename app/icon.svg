@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 200 200" role="img" aria-label="EF">
+  <title>Elodie Fleury — favicon</title>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&amp;display=swap');
+      .mono { font-family:'Cormorant Garamond', Georgia, serif; font-weight:600; letter-spacing:-3px; fill:#F5EEE6; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="200" height="200" rx="44" fill="#BE5B42"/>
+  <text x="100" y="133" text-anchor="middle" font-size="92" class="mono">EF</text>
+</svg>

@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, DM_Sans } from "next/font/google";
+import { Cormorant_Garamond, Dancing_Script, Montserrat } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import Script from "next/script";
+import { GuideModalProvider } from "@/components/guide/GuideModalProvider";
 import LangBar from "@/components/layout/LangBar";
 import Nav from "@/components/layout/Nav";
 import Footer from "@/components/layout/Footer";
@@ -14,16 +15,23 @@ import "../globals.css";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
-  weight: ["300", "400", "600"],
+  weight: ["400", "500", "600"],
   style: ["normal", "italic"],
   variable: "--font-display",
   display: "swap",
 });
 
-const dmSans = DM_Sans({
+const montserrat = Montserrat({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600"],
+  weight: ["300", "400", "500"],
   variable: "--font-sans",
+  display: "swap",
+});
+
+const dancingScript = Dancing_Script({
+  subsets: ["latin"],
+  weight: ["600"],
+  variable: "--font-script",
   display: "swap",
 });
 
@@ -72,7 +80,7 @@ export async function generateMetadata({
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "RealEstateAgent",
-  name: "Élodie Fleury",
+  name: "Elodie Fleury",
   description:
     "Agente immobilière indépendante bilingue FR/ES sur la Côte d'Azur. Vente, achat et conciergerie saisonnière à Nice, Antibes, Cagnes.",
   url: siteConfig.url,
@@ -118,8 +126,8 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={`${cormorant.variable} ${dmSans.variable}`}>
-      <body className="overflow-x-hidden bg-blanc font-sans text-[#111820] antialiased">
+    <html lang={locale} className={`${cormorant.variable} ${montserrat.variable} ${dancingScript.variable}`}>
+      <body className="overflow-x-hidden bg-cal font-sans text-tinta antialiased">
         <Script
           id="schema-org"
           type="application/ld+json"
@@ -134,11 +142,13 @@ export default async function LocaleLayout({ children, params }: Props) {
           />
         )}
         <NextIntlClientProvider messages={messages}>
-          <LangBar />
-          <Nav />
-          <main>{children}</main>
-          <Footer />
-          <WhatsAppButton />
+          <GuideModalProvider>
+            <LangBar />
+            <Nav />
+            <main>{children}</main>
+            <Footer />
+            <WhatsAppButton />
+          </GuideModalProvider>
         </NextIntlClientProvider>
       </body>
     </html>

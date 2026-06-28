@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
@@ -40,16 +41,20 @@ export default function Nav() {
       <nav
         className={`fixed left-0 right-0 top-9 z-[200] transition-all duration-350 ease-out-expo ${
           scrolled
-            ? "bg-marine-deep/97 shadow-[0_1px_0_rgba(200,169,122,0.15)] backdrop-blur-md"
+            ? "bg-tinta/97 shadow-[0_1px_0_rgba(217,161,82,0.15)] backdrop-blur-md"
             : "bg-transparent"
         }`}
       >
         <div className="mx-auto flex h-16 max-w-[1160px] items-center justify-between px-5 md:px-10">
-          <Link href="/" className="font-display text-[1.1rem] tracking-wide text-sable">
-            {siteConfig.name}
-            <span className="ml-1.5 text-[0.82rem] font-light text-white/45">
-              · {siteConfig.tagline}
-            </span>
+          <Link href="/" className="flex items-center gap-3">
+            <Image
+              src="/brand/logo-horizontal-light.svg"
+              alt={siteConfig.name}
+              width={200}
+              height={44}
+              className="h-10 w-auto"
+              priority
+            />
           </Link>
 
           <div className="hidden items-center gap-8 md:flex">
@@ -57,7 +62,7 @@ export default function Nav() {
               <a
                 key={link.key}
                 href={link.href}
-                className="text-[0.72rem] font-medium uppercase tracking-widest text-white/55 transition-colors hover:text-sable"
+                className="text-[0.72rem] font-medium uppercase tracking-widest text-white/55 transition-colors hover:text-sol"
               >
                 {t(link.key)}
               </a>
@@ -66,7 +71,7 @@ export default function Nav() {
               href={whatsappUrl(locale)}
               target="_blank"
               rel="noopener noreferrer"
-              className="whitespace-nowrap rounded bg-sable px-[22px] py-2.5 text-[0.76rem] font-semibold tracking-wide text-marine transition-all hover:-translate-y-px hover:opacity-88"
+              className="whitespace-nowrap rounded bg-terracota px-[22px] py-2.5 text-[0.76rem] font-semibold tracking-wide text-cal transition-all hover:-translate-y-px hover:opacity-88"
             >
               {t("cta")}
             </a>
@@ -80,20 +85,20 @@ export default function Nav() {
             aria-expanded={menuOpen}
           >
             <span
-              className={`block h-0.5 w-6 bg-sable transition-transform ${menuOpen ? "translate-y-2 rotate-45" : ""}`}
+              className={`block h-0.5 w-6 bg-sol transition-transform ${menuOpen ? "translate-y-2 rotate-45" : ""}`}
             />
             <span
-              className={`block h-0.5 w-6 bg-sable transition-opacity ${menuOpen ? "opacity-0" : ""}`}
+              className={`block h-0.5 w-6 bg-sol transition-opacity ${menuOpen ? "opacity-0" : ""}`}
             />
             <span
-              className={`block h-0.5 w-6 bg-sable transition-transform ${menuOpen ? "-translate-y-2 -rotate-45" : ""}`}
+              className={`block h-0.5 w-6 bg-sol transition-transform ${menuOpen ? "-translate-y-2 -rotate-45" : ""}`}
             />
           </button>
         </div>
       </nav>
 
       {menuOpen && (
-        <div className="fixed inset-0 top-[100px] z-[199] bg-marine-deep/98 backdrop-blur-md md:hidden">
+        <div className="fixed inset-0 top-[100px] z-[199] bg-tinta/98 backdrop-blur-md md:hidden">
           <div className="flex flex-col gap-6 px-8 py-10">
             {navLinks.map((link) => (
               <a
@@ -109,7 +114,7 @@ export default function Nav() {
               href={whatsappUrl(locale)}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-4 inline-flex w-fit rounded bg-sable px-6 py-3 font-semibold text-marine"
+              className="mt-4 inline-flex w-fit rounded bg-terracota px-6 py-3 font-semibold text-cal"
             >
               {t("cta")}
             </a>

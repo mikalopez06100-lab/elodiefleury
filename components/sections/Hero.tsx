@@ -4,8 +4,9 @@ import Image from "next/image";
 import { motion, useReducedMotion, useScroll, useTransform } from "framer-motion";
 import { useLocale, useTranslations } from "next-intl";
 import { useRef } from "react";
+import { useGuideModal } from "@/components/guide/GuideModalProvider";
 import { heroEntrance } from "@/lib/animations";
-import { whatsappUrl } from "@/lib/config";
+import { siteConfig, whatsappUrl } from "@/lib/config";
 import type { Locale } from "@/i18n/routing";
 
 function MultilineTitle({ text }: { text: string }) {
@@ -25,6 +26,7 @@ export default function Hero() {
   const t = useTranslations("hero");
   const tStats = useTranslations("stats");
   const locale = useLocale() as Locale;
+  const { openGuideModal } = useGuideModal();
   const ref = useRef<HTMLElement>(null);
   const prefersReducedMotion = useReducedMotion();
   const { scrollYProgress } = useScroll({
@@ -58,14 +60,14 @@ export default function Hero() {
             priority
             quality={80}
             sizes="100vw"
-            className="object-cover object-[center_40%] brightness-[1.05] contrast-[0.95]"
+            className="object-cover object-[center_40%] brightness-[0.92] contrast-[0.95] saturate-[0.85]"
           />
         </motion.div>
         <div
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(to top, rgba(8,28,46,0.94) 0%, rgba(8,28,46,0.6) 50%, rgba(8,28,46,0.25) 100%)",
+              "linear-gradient(to top, rgba(42,38,34,0.94) 0%, rgba(44,74,82,0.62) 50%, rgba(44,74,82,0.28) 100%)",
           }}
         />
       </div>
@@ -76,28 +78,37 @@ export default function Hero() {
           variants={heroEntrance}
           initial="hidden"
           animate="visible"
-          className="mb-[22px] inline-flex items-center gap-3 text-[0.68rem] font-medium uppercase tracking-[0.16em] text-sable before:block before:h-px before:w-7 before:bg-sable/70"
+          className="mb-[22px] inline-flex items-center gap-3 text-[0.68rem] font-medium uppercase tracking-[0.16em] text-sol before:block before:h-px before:w-7 before:bg-sol/70"
         >
           {t("eyebrow")}
         </motion.div>
 
-        <div className="mb-8">
+        <div className="mb-6">
           <motion.h1
             custom={0.3}
             variants={heroEntrance}
             initial="hidden"
             animate="visible"
-            className="font-display text-hero-fr font-semibold text-white"
+            className="font-display text-hero-fr font-semibold text-cal"
           >
             <MultilineTitle text={t("title")} />
           </motion.h1>
+          <motion.p
+            custom={0.42}
+            variants={heroEntrance}
+            initial="hidden"
+            animate="visible"
+            className="mt-3 font-script text-hero-slogan text-terracota-light"
+          >
+            {siteConfig.slogan}
+          </motion.p>
           {subtitle && (
             <motion.p
               custom={0.52}
               variants={heroEntrance}
               initial="hidden"
               animate="visible"
-              className="mt-2 font-display text-hero-es font-light italic text-sable"
+              className="mt-2 font-display text-hero-es font-light italic text-sol"
             >
               {subtitle}
             </motion.p>
@@ -109,7 +120,7 @@ export default function Hero() {
           variants={heroEntrance}
           initial="hidden"
           animate="visible"
-          className="mb-10 max-w-[520px] text-[0.97rem] leading-[1.82] text-white/72 [&_em]:font-medium [&_em]:not-italic [&_em]:text-sable"
+          className="mb-10 max-w-[520px] text-[0.97rem] leading-[1.82] text-white/72 [&_em]:font-medium [&_em]:not-italic [&_em]:text-sol"
         >
           {t.rich("body", {
             em: (chunks) => <em>{chunks}</em>,
@@ -127,16 +138,17 @@ export default function Hero() {
             href={whatsappUrl(locale)}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 whitespace-nowrap rounded bg-sable px-7 py-3.5 text-[0.86rem] font-semibold text-marine transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_26px_rgba(200,169,122,0.38)]"
+            className="inline-flex items-center gap-2 whitespace-nowrap rounded bg-terracota px-7 py-3.5 text-[0.86rem] font-semibold text-cal transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_26px_rgba(190,91,66,0.38)]"
           >
             💬 {t("cta_primary")}
           </a>
-          <a
-            href="#guide"
-            className="inline-flex items-center gap-2 whitespace-nowrap rounded border border-white/28 px-7 py-3.5 text-[0.86rem] text-white/85 transition-colors hover:border-sable hover:text-sable"
+          <button
+            type="button"
+            onClick={openGuideModal}
+            className="inline-flex items-center gap-2 whitespace-nowrap rounded border border-white/28 px-7 py-3.5 text-[0.86rem] text-white/85 transition-colors hover:border-sol hover:text-sol"
           >
             {t("cta_secondary")}
-          </a>
+          </button>
         </motion.div>
 
         <motion.div
@@ -144,7 +156,7 @@ export default function Hero() {
           variants={heroEntrance}
           initial="hidden"
           animate="visible"
-          className="mt-11 inline-flex items-center gap-2.5 rounded-full border border-sable/22 bg-white/[0.07] px-[18px] py-2.5 text-[0.78rem] text-white/55"
+          className="mt-11 inline-flex items-center gap-2.5 rounded-full border border-sol/22 bg-white/[0.07] px-[18px] py-2.5 text-[0.78rem] text-white/55"
         >
           {t("lang_badge")}
         </motion.div>
@@ -157,7 +169,7 @@ export default function Hero() {
           className="mt-10 flex flex-wrap gap-[52px] border-t border-white/10 pt-8"
         >
           <div>
-            <span className="block font-display text-[2.7rem] font-semibold leading-none text-sable">
+            <span className="block font-display text-[2.7rem] font-semibold leading-none text-sol">
               {tStats("reviews_score")}
               <small className="text-[1.7rem]">{tStats("reviews_suffix")}</small>
             </span>
@@ -166,7 +178,7 @@ export default function Hero() {
             </span>
           </div>
           <div>
-            <span className="block font-display text-[2.7rem] font-semibold leading-none text-sable">
+            <span className="block font-display text-[2.7rem] font-semibold leading-none text-sol">
               {tStats("properties_count")}
             </span>
             <span className="mt-1 block text-[0.68rem] uppercase tracking-wider text-white/42">
@@ -174,7 +186,7 @@ export default function Hero() {
             </span>
           </div>
           <div>
-            <span className="block font-display text-[2.7rem] font-semibold leading-none text-sable">
+            <span className="block font-display text-[2.7rem] font-semibold leading-none text-sol">
               {tStats("zone_code")}
             </span>
             <span className="mt-1 block text-[0.68rem] uppercase tracking-wider text-white/42">
@@ -188,7 +200,7 @@ export default function Hero() {
         <span className="text-[0.6rem] uppercase tracking-[0.14em] text-white/50">
           {t("scroll_hint")}
         </span>
-        <div className="h-9 w-px bg-gradient-to-b from-sable/80 to-transparent" />
+        <div className="h-9 w-px bg-gradient-to-b from-sol/80 to-transparent" />
       </div>
     </section>
   );

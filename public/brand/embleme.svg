@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" viewBox="0 0 200 200" role="img" aria-label="Elodie Fleury — emblème">
+  <title>Elodie Fleury — emblème (sceau)</title>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&amp;display=swap');
+      .mono { font-family:'Cormorant Garamond', Georgia, serif; font-weight:600; letter-spacing:-2px; fill:#2A2622; }
+    </style>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#BE5B42" stroke-width="2.6"/>
+  <circle cx="100" cy="100" r="81" fill="none" stroke="#D9A152" stroke-width="1"/>
+  <g fill="#D9A152">
+    <circle cx="100" cy="60" r="3.4"/>
+    <ellipse cx="100" cy="50" rx="3" ry="7.5"/>
+    <ellipse cx="100" cy="50" rx="3" ry="7.5" transform="rotate(45 100 60)"/>
+    <ellipse cx="100" cy="50" rx="3" ry="7.5" transform="rotate(90 100 60)"/>
+    <ellipse cx="100" cy="50" rx="3" ry="7.5" transform="rotate(135 100 60)"/>
+    <ellipse cx="100" cy="50" rx="3" ry="7.5" transform="rotate(180 100 60)"/>
+    <ellipse cx="100" cy="50" rx="3" ry="7.5" transform="rotate(225 100 60)"/>
+    <ellipse cx="100" cy="50" rx="3" ry="7.5" transform="rotate(270 100 60)"/>
+    <ellipse cx="100" cy="50" rx="3" ry="7.5" transform="rotate(315 100 60)"/>
+  </g>
+  <text x="100" y="132" text-anchor="middle" font-size="64" class="mono">EF</text>
+  <g stroke="#D9A152" stroke-width="1.4">
+    <line x1="74" y1="152" x2="90" y2="152"/>
+    <line x1="110" y1="152" x2="126" y2="152"/>
+  </g>
+  <rect x="96.5" y="148.5" width="7" height="7" transform="rotate(45 100 152)" fill="#BE5B42"/>
+</svg>
