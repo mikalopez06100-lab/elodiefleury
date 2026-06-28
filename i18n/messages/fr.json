@@ -14,7 +14,7 @@
     "title": "Votre immobilier\nsur la Côte d'Azur.",
     "subtitle_es": "Hablo español. Conozco el mercado.",
     "subtitle_en": "Bilingual expert. Local market insider.",
-    "body": "Agente immobilière indépendante à Nice, je vous accompagne en <em>français et en espagnol</em> pour acheter, vendre ou rentabiliser votre bien — de la première visite à la remise des clés.",
+    "body": "Agente immobilière indépendante sur la Côte d'Azur, de <em>Cannes à Menton</em>, je vous accompagne en français et en espagnol pour acheter, vendre ou rentabiliser votre bien — de la première visite à la remise des clés.",
     "cta_primary": "Contactez-moi",
     "cta_secondary": "📄 Guide gratuit acquéreurs",
     "lang_badge": "🇫🇷 Français · 🇪🇸 Español · 🇬🇧 English",
@@ -27,25 +27,25 @@
     "properties_count": "10+",
     "properties_label": "Biens en gestion",
     "zone_code": "06",
-    "zone_label": "Alpes-Maritimes"
+    "zone_label": "Côte d'Azur"
   },
   "profile": {
     "eyebrow": "Qui suis-je · Quién soy",
     "title": "Une agente de terrain,\ndans votre langue.",
     "name": "Elodie Fleury",
-    "badge": "immo_elo · Nice 06",
-    "p1": "Agente immobilière indépendante à Nice (réseau partenaire), je suis aussi fondatrice de <strong>YourBnB06</strong>, ma conciergerie de gestion saisonnière sur la Côte d'Azur.",
+    "badge": "immo_elo · Côte d'Azur",
+    "p1": "Agente immobilière indépendante sur la Côte d'Azur, de Cannes à Menton (réseau partenaire), je suis aussi fondatrice de <strong>YourBnB06</strong>, ma conciergerie de gestion saisonnière sur tout le littoral.",
     "p2": "Ce qui me distingue : je parle couramment l'espagnol et dispose d'un réseau actif dans la communauté hispanophone. Je comprends les attentes et codes des acquéreurs espagnols et latino-américains.",
     "tag_fr": "🇫🇷 Français",
     "tag_es": "🇪🇸 Español",
     "tag_en": "🇬🇧 English",
     "tag_reviews": "4,9/5 · 18 avis",
-    "tag_zones": "Nice · Antibes · Cagnes",
+    "tag_zones": "Cannes · Nice · Menton",
     "quote_fr_label": "Pour les clients francophones",
     "quote_fr_text": "\"Elle est d'une énergie rare — elle ne lâche rien. Elle a réussi à vendre notre appartement alors que tous les autres agents avaient échoué.\"",
     "quote_fr_author": "Olivier Z. · Nice Nord · Avril 2026",
     "quote_es_label": "Pour les clients hispanophones",
-    "quote_es_text": "\"Élodie habla español, conoce el mercado de Niza a fondo y nos acompañó en cada paso. Sin ella, habría sido muy difícil desde España.\"",
+    "quote_es_text": "\"Élodie habla español, conoce la Costa Azul a fondo y nos acompañó en cada paso. Sin ella, habría sido muy difícil desde España.\"",
     "quote_es_author": "Miguel R. · Antibes · 2026"
   },
   "services": {
@@ -61,25 +61,25 @@
   },
   "gallery": {
     "eyebrow": "Sélection de biens · Selección",
-    "title": "Nice, Antibes, Cagnes,\nBiot — je connais chaque rue.",
-    "villa_city": "Antibes · 599 000 €",
+    "title": "De Cannes à Menton,\nje connais chaque marché.",
+    "villa_city": "Cannes · 599 000 €",
     "villa_title": "Maison 4p · 102m² · jardin",
     "appt_city": "Nice · 275 000 €",
     "appt_title": "Appartement 3p",
     "terrain_city": "Aspremont · 275 000 €",
     "terrain_title": "Terrain 1 500m²",
-    "interieur_city": "Cagnes · 194 500 €",
+    "interieur_city": "Antibes · 194 500 €",
     "interieur_title": "2p · 42m²",
-    "luxe_city": "Biot · Exclusivité",
+    "luxe_city": "Menton · Exclusivité",
     "luxe_title": "Villa 8p · 295m²"
   },
   "zones": {
     "eyebrow": "Secteur · Área",
-    "query": "Je suis là où vous en avez besoin.",
-    "nice_dept": "06200 · Siège",
-    "antibes_dept": "06600 · Juan-les-Pins",
-    "cagnes_dept": "06800 · sur-Mer",
-    "biot_dept": "06410 · arrière-pays"
+    "query": "De Cannes à Menton,\nje suis là où vous en avez besoin.",
+    "cannes_dept": "06400 · Croisette",
+    "nice_dept": "06000 · Siège",
+    "antibes_dept": "06600 · Cap d'Antibes",
+    "menton_dept": "06500 · Riviera"
   },
   "reviews": {
     "eyebrow": "Avis clients · Reseñas",
@@ -109,7 +109,7 @@
     "item1": "Procédure d'achat étape par étape (compromis → acte final)",
     "item2": "Frais de notaire et coûts réels à anticiper",
     "item3": "Réglementation pour les non-résidents européens",
-    "item4": "Prix au m² par quartier — Nice, Antibes, Cagnes",
+    "item4": "Prix au m² par ville — Cannes, Nice, Antibes, Menton",
     "item5": "Les 5 erreurs les plus fréquentes des acheteurs étrangers",
     "cta": "📄 Recevoir le guide gratuitement"
   },
@@ -149,10 +149,10 @@
   },
   "footer": {
     "legal": "© 2026 Elodie Fleury — Agente commerciale EI · RSAC Nice n° 925 155 855",
-    "yourbnb": "YourBnB06 — Conciergerie premium Nice · yourbnb06.fr"
+    "yourbnb": "YourBnB06 — Conciergerie premium Côte d'Azur · yourbnb06.fr"
   },
   "metadata": {
     "title": "Elodie Fleury — Immobilier & Conciergerie · Côte d'Azur",
-    "description": "Agente immobilière indépendante à Nice, bilingue français-espagnol. Vente, achat et conciergerie saisonnière à Nice, Antibes, Cagnes-sur-Mer. Tu casa, mi pasión."
+    "description": "Agente immobilière indépendante bilingue sur la Côte d'Azur, de Cannes à Menton. Vente, achat et conciergerie saisonnière. Tu casa, mi pasión."
   }
 }

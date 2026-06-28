@@ -1,10 +1,10 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { siteConfig, whatsappUrl } from "@/lib/config";
+import BrandLogo from "@/components/brand/BrandLogo";
+import { whatsappUrl } from "@/lib/config";
 import { useLocale } from "next-intl";
 import type { Locale } from "@/i18n/routing";
 
@@ -39,22 +39,15 @@ export default function Nav() {
   return (
     <>
       <nav
-        className={`fixed left-0 right-0 top-9 z-[200] transition-all duration-350 ease-out-expo ${
+        className={`fixed left-0 right-0 top-9 z-[200] border-b transition-all duration-350 ease-out-expo ${
           scrolled
-            ? "bg-tinta/97 shadow-[0_1px_0_rgba(217,161,82,0.15)] backdrop-blur-md"
-            : "bg-transparent"
+            ? "border-white/10 bg-tinta/97 shadow-[0_4px_24px_rgba(42,38,34,0.22)] backdrop-blur-md"
+            : "border-white/8 bg-tinta/92 backdrop-blur-md"
         }`}
       >
         <div className="mx-auto flex h-16 max-w-[1160px] items-center justify-between px-5 md:px-10">
-          <Link href="/" className="flex items-center gap-3">
-            <Image
-              src="/brand/logo-horizontal-light.svg"
-              alt={siteConfig.name}
-              width={200}
-              height={44}
-              className="h-10 w-auto"
-              priority
-            />
+          <Link href="/" className="shrink-0">
+            <BrandLogo variant="light" showTagline />
           </Link>
 
           <div className="hidden items-center gap-8 md:flex">
@@ -62,7 +55,7 @@ export default function Nav() {
               <a
                 key={link.key}
                 href={link.href}
-                className="text-[0.72rem] font-medium uppercase tracking-widest text-white/55 transition-colors hover:text-sol"
+                className="text-[0.74rem] font-semibold uppercase tracking-[0.14em] text-cal/95 transition-colors hover:text-sol"
               >
                 {t(link.key)}
               </a>
@@ -85,13 +78,13 @@ export default function Nav() {
             aria-expanded={menuOpen}
           >
             <span
-              className={`block h-0.5 w-6 bg-sol transition-transform ${menuOpen ? "translate-y-2 rotate-45" : ""}`}
+              className={`block h-0.5 w-6 bg-cal transition-transform ${menuOpen ? "translate-y-2 rotate-45" : ""}`}
             />
             <span
-              className={`block h-0.5 w-6 bg-sol transition-opacity ${menuOpen ? "opacity-0" : ""}`}
+              className={`block h-0.5 w-6 bg-cal transition-opacity ${menuOpen ? "opacity-0" : ""}`}
             />
             <span
-              className={`block h-0.5 w-6 bg-sol transition-transform ${menuOpen ? "-translate-y-2 -rotate-45" : ""}`}
+              className={`block h-0.5 w-6 bg-cal transition-transform ${menuOpen ? "-translate-y-2 -rotate-45" : ""}`}
             />
           </button>
         </div>

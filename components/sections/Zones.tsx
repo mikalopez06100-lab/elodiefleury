@@ -3,11 +3,20 @@ import { useTranslations } from "next-intl";
 import RevealOnScroll from "@/components/ui/RevealOnScroll";
 
 const zones = [
-  { key: "nice" as const, image: "nice.jpg" },
-  { key: "antibes" as const, image: "antibes.jpg" },
-  { key: "cagnes" as const, image: "cagnes.jpg" },
-  { key: "biot" as const, image: "biot.jpg" },
+  { key: "cannes" as const, image: "cagnes.jpg", label: "Cannes" },
+  { key: "nice" as const, image: "nice.jpg", label: "Nice" },
+  { key: "antibes" as const, image: "antibes.jpg", label: "Antibes" },
+  { key: "menton" as const, image: "biot.jpg", label: "Menton" },
 ];
+
+function Multiline({ text }: { text: string }) {
+  return text.split("\n").map((line, i, arr) => (
+    <span key={i}>
+      {line}
+      {i < arr.length - 1 && <br />}
+    </span>
+  ));
+}
 
 export default function Zones() {
   const t = useTranslations("zones");
@@ -20,7 +29,7 @@ export default function Zones() {
             {t("eyebrow")}
           </span>
           <h2 className="font-display text-section font-semibold leading-[1.08] tracking-tight text-cal">
-            {t("query")}
+            <Multiline text={t("query")} />
           </h2>
         </RevealOnScroll>
 
@@ -32,7 +41,7 @@ export default function Zones() {
             >
               <Image
                 src={`/images/zones/${zone.image}`}
-                alt={zone.key}
+                alt={zone.label}
                 fill
                 sizes="(max-width: 768px) 50vw, 25vw"
                 className="object-cover brightness-[1.02] contrast-[0.95] transition-transform duration-[800ms] ease-out-expo group-hover:scale-[1.07]"
@@ -45,8 +54,8 @@ export default function Zones() {
                 }}
               />
               <div className="absolute bottom-[18px] left-[18px]">
-                <span className="block font-display text-[1.38rem] font-semibold capitalize leading-none text-cal">
-                  {zone.key === "cagnes" ? "Cagnes" : zone.key.charAt(0).toUpperCase() + zone.key.slice(1)}
+                <span className="block font-display text-[1.38rem] font-semibold leading-none text-cal">
+                  {zone.label}
                 </span>
                 <span className="mt-1 block text-[0.62rem] uppercase tracking-wider text-sol">
                   {t(`${zone.key}_dept`)}

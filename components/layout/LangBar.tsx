@@ -20,19 +20,19 @@ export default function LangBar() {
   };
 
   return (
-    <div className="fixed left-0 right-0 top-0 z-[300] flex h-9 items-center justify-end gap-1 border-b border-sol/15 bg-tinta px-5 md:px-10">
+    <div className="fixed left-0 right-0 top-0 z-[300] flex h-9 items-center justify-end gap-1 border-b border-white/10 bg-tinta/95 px-5 backdrop-blur-md md:px-10">
       {locales.map((item, index) => (
         <div key={item.code} className="flex items-center gap-1">
           {index > 0 && (
-            <div className="mx-0.5 h-3.5 w-px bg-white/12" aria-hidden />
+            <div className="mx-0.5 h-3.5 w-px bg-white/20" aria-hidden />
           )}
           <button
             type="button"
             onClick={() => switchLocale(item.code)}
             className={`inline-flex items-center gap-1.5 rounded px-3 py-1 font-sans text-[0.68rem] font-semibold uppercase tracking-wider transition-all ${
               locale === item.code
-                ? "border border-sol bg-sol/10 text-sol"
-                : "border border-transparent text-white/45 hover:border-sol/25 hover:text-white/80"
+                ? "border border-sol bg-sol/15 text-sol"
+                : "border border-transparent text-cal/80 hover:border-sol/30 hover:text-cal"
             }`}
             aria-current={locale === item.code ? "true" : undefined}
           >

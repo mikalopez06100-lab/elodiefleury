@@ -14,7 +14,7 @@
     "title": "Su inmobiliaria\nen la Costa Azul.",
     "subtitle_es": "Hablo español. Conozco el mercado.",
     "subtitle_en": "Bilingual expert. Local market insider.",
-    "body": "Agente inmobiliaria independiente en Niza, la acompaño en <em>español y en francés</em> para comprar, vender o rentabilizar su propiedad — desde la primera visita hasta la entrega de llaves.",
+    "body": "Agente inmobiliaria independiente en la Costa Azul, de <em>Cannes a Menton</em>, la acompaño en español y en francés para comprar, vender o rentabilizar su propiedad — desde la primera visita hasta la entrega de llaves.",
     "cta_primary": "Contácteme",
     "cta_secondary": "📄 Guía gratuita compradores",
     "lang_badge": "🇫🇷 Français · 🇪🇸 Español · 🇬🇧 English",
@@ -27,25 +27,25 @@
     "properties_count": "10+",
     "properties_label": "Propiedades gestionadas",
     "zone_code": "06",
-    "zone_label": "Alpes Marítimos"
+    "zone_label": "Costa Azul"
   },
   "profile": {
     "eyebrow": "Quién soy · Qui suis-je",
     "title": "Una agente experta,\nen su idioma.",
     "name": "Elodie Fleury",
-    "badge": "immo_elo · Nice 06",
-    "p1": "Agente inmobiliaria independiente en Niza (red asociada), también soy fundadora de <strong>YourBnB06</strong>, mi conserjería de gestión vacacional en la Costa Azul.",
+    "badge": "immo_elo · Costa Azul",
+    "p1": "Agente inmobiliaria independiente en la Costa Azul, de Cannes a Menton (red asociada), también soy fundadora de <strong>YourBnB06</strong>, mi conserjería de gestión vacacional en todo el litoral.",
     "p2": "Lo que me distingue: hablo español con fluidez y tengo una red activa en la comunidad hispanohablante. Entiendo las expectativas y códigos de los compradores españoles y latinoamericanos.",
     "tag_fr": "🇫🇷 Français",
     "tag_es": "🇪🇸 Español",
     "tag_en": "🇬🇧 English",
     "tag_reviews": "4,9/5 · 18 reseñas",
-    "tag_zones": "Niza · Antibes · Cagnes",
+    "tag_zones": "Cannes · Niza · Menton",
     "quote_fr_label": "Para clientes francófonos",
     "quote_fr_text": "\"Elle est d'une énergie rare — elle ne lâche rien. Elle a réussi à vendre notre appartement alors que tous les autres agents avaient échoué.\"",
     "quote_fr_author": "Olivier Z. · Nice Nord · Abril 2026",
     "quote_es_label": "Para clientes hispanohablantes",
-    "quote_es_text": "\"Élodie habla español, conoce el mercado de Niza a fondo y nos acompañó en cada paso. Sin ella, habría sido muy difícil desde España.\"",
+    "quote_es_text": "\"Élodie habla español, conoce la Costa Azul a fondo y nos acompañó en cada paso. Sin ella, habría sido muy difícil desde España.\"",
     "quote_es_author": "Miguel R. · Antibes · 2026"
   },
   "services": {
@@ -61,25 +61,25 @@
   },
   "gallery": {
     "eyebrow": "Selección de inmuebles",
-    "title": "Niza, Antibes, Cagnes,\nBiot — conozco cada calle.",
-    "villa_city": "Antibes · 599 000 €",
+    "title": "De Cannes a Menton,\nconozco cada mercado.",
+    "villa_city": "Cannes · 599 000 €",
     "villa_title": "Casa 4 hab · 102m² · jardín",
     "appt_city": "Niza · 275 000 €",
     "appt_title": "Apartamento 3 hab",
     "terrain_city": "Aspremont · 275 000 €",
     "terrain_title": "Terreno 1 500m²",
-    "interieur_city": "Cagnes · 194 500 €",
+    "interieur_city": "Antibes · 194 500 €",
     "interieur_title": "2 hab · 42m²",
-    "luxe_city": "Biot · Exclusividad",
+    "luxe_city": "Menton · Exclusividad",
     "luxe_title": "Villa 8 hab · 295m²"
   },
   "zones": {
     "eyebrow": "Área de actividad",
-    "query": "Estoy donde usted me necesita.",
-    "nice_dept": "06200 · Sede",
-    "antibes_dept": "06600 · Juan-les-Pins",
-    "cagnes_dept": "06800 · sur-Mer",
-    "biot_dept": "06410 · interior"
+    "query": "De Cannes a Menton,\nestoy donde usted lo necesite.",
+    "cannes_dept": "06400 · Croisette",
+    "nice_dept": "06000 · Sede",
+    "antibes_dept": "06600 · Cap d'Antibes",
+    "menton_dept": "06500 · Riviera"
   },
   "reviews": {
     "eyebrow": "Reseñas de clientes",
@@ -109,7 +109,7 @@
     "item1": "Proceso de compra paso a paso (contrato → escritura)",
     "item2": "Gastos de notaría y costes reales a anticipar",
     "item3": "Normativa para no residentes europeos",
-    "item4": "Precios por m² por barrio — Niza, Antibes, Cagnes",
+    "item4": "Precios por m² por ciudad — Cannes, Niza, Antibes, Menton",
     "item5": "Los 5 errores más frecuentes de los compradores extranjeros",
     "cta": "📄 Recibir la guía gratis"
   },
@@ -149,10 +149,10 @@
   },
   "footer": {
     "legal": "© 2026 Elodie Fleury — Agente comercial EI · RSAC Nice n° 925 155 855",
-    "yourbnb": "YourBnB06 — Conserjería premium Niza · yourbnb06.fr"
+    "yourbnb": "YourBnB06 — Conserjería premium Costa Azul · yourbnb06.fr"
   },
   "metadata": {
     "title": "Elodie Fleury — Inmobiliaria & Conciergería · Costa Azul",
-    "description": "Agente inmobiliaria independiente en Niza, bilingüe francés-español. Compra, venta y conserjería vacacional en Niza, Antibes, Cagnes. Tu casa, mi pasión."
+    "description": "Agente inmobiliaria independiente bilingüe en la Costa Azul, de Cannes a Menton. Compra, venta y conserjería vacacional. Tu casa, mi pasión."
   }
 }

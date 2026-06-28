@@ -3,9 +3,9 @@
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&amp;family=Montserrat:wght@500&amp;display=swap');
-      .wm   { font-family:'Cormorant Garamond', Georgia, serif; font-weight:500; letter-spacing:4px; fill:#F5EEE6; }
-      .base { font-family:'Montserrat', Arial, sans-serif; font-weight:500; letter-spacing:4px; fill:#EFD0B6; }
-      .mono { font-family:'Cormorant Garamond', Georgia, serif; font-weight:600; letter-spacing:-2px; fill:#F5EEE6; }
+      .wm   { font-family:'Cormorant Garamond', Georgia, serif; font-weight:500; letter-spacing:4px; fill:#FFFFFF; }
+      .base { font-family:'Montserrat', Arial, sans-serif; font-weight:500; letter-spacing:4px; fill:#F5EEE6; }
+      .mono { font-family:'Cormorant Garamond', Georgia, serif; font-weight:600; letter-spacing:-2px; fill:#FFFFFF; }
     </style>
   </defs>
 

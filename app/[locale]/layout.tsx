@@ -82,7 +82,7 @@ const jsonLd = {
   "@type": "RealEstateAgent",
   name: "Elodie Fleury",
   description:
-    "Agente immobilière indépendante bilingue FR/ES sur la Côte d'Azur. Vente, achat et conciergerie saisonnière à Nice, Antibes, Cagnes.",
+    "Agente immobilière indépendante bilingue FR/ES sur la Côte d'Azur, de Cannes à Menton. Vente, achat et conciergerie saisonnière.",
   url: siteConfig.url,
   telephone: "+33778235486",
   email: siteConfig.email,
@@ -100,10 +100,13 @@ const jsonLd = {
     longitude: 7.262,
   },
   areaServed: [
-    { "@type": "City", name: "Nice" },
+    { "@type": "City", name: "Cannes" },
+    { "@type": "City", name: "Mandelieu-la-Napoule" },
     { "@type": "City", name: "Antibes" },
-    { "@type": "City", name: "Cagnes-sur-Mer" },
-    { "@type": "City", name: "Biot" },
+    { "@type": "City", name: "Nice" },
+    { "@type": "City", name: "Villefranche-sur-Mer" },
+    { "@type": "City", name: "Monaco" },
+    { "@type": "City", name: "Menton" },
   ],
   knowsLanguage: ["fr", "es", "en"],
   aggregateRating: {
