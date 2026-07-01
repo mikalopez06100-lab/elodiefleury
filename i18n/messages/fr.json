@@ -160,6 +160,20 @@
       "interieur_title": "Cuisine équipée",
       "luxe_city": "Nice",
       "luxe_title": "Salle de bain"
+    },
+    "prefecture": {
+      "label": "Nice · Préfecture",
+      "subtitle": "Studio mezzanine · Vieux-Nice",
+      "villa_city": "Nice",
+      "villa_title": "Vue · Vieux-Nice",
+      "appt_city": "Nice",
+      "appt_title": "Séjour lumineux",
+      "terrain_city": "Nice",
+      "terrain_title": "Chambre mezzanine",
+      "interieur_city": "Nice",
+      "interieur_title": "Cuisine équipée",
+      "luxe_city": "Nice",
+      "luxe_title": "Salle de bain"
     }
   },
   "zones": {

@@ -160,6 +160,20 @@
       "interieur_title": "Cocina equipada",
       "luxe_city": "Niza",
       "luxe_title": "Baño"
+    },
+    "prefecture": {
+      "label": "Niza · Prefectura",
+      "subtitle": "Estudio en altillo · Casco antiguo",
+      "villa_city": "Niza",
+      "villa_title": "Vista · Casco antiguo",
+      "appt_city": "Niza",
+      "appt_title": "Salón luminoso",
+      "terrain_city": "Niza",
+      "terrain_title": "Dormitorio en altillo",
+      "interieur_city": "Niza",
+      "interieur_title": "Cocina equipada",
+      "luxe_city": "Niza",
+      "luxe_title": "Baño"
     }
   },
   "zones": {

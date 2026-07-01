@@ -160,6 +160,20 @@
       "interieur_title": "Equipped kitchen",
       "luxe_city": "Nice",
       "luxe_title": "Bathroom"
+    },
+    "prefecture": {
+      "label": "Nice · Prefecture",
+      "subtitle": "Mezzanine studio · Old Town",
+      "villa_city": "Nice",
+      "villa_title": "View · Old Nice",
+      "appt_city": "Nice",
+      "appt_title": "Bright living area",
+      "terrain_city": "Nice",
+      "terrain_title": "Mezzanine bedroom",
+      "interieur_city": "Nice",
+      "interieur_title": "Equipped kitchen",
+      "luxe_city": "Nice",
+      "luxe_title": "Bathroom"
     }
   },
   "zones": {

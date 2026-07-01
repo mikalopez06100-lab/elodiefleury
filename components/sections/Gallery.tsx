@@ -5,7 +5,7 @@ import RevealOnScroll from "@/components/ui/RevealOnScroll";
 type ImageKey = "villa" | "appt" | "terrain" | "interieur" | "luxe";
 
 const showcases: {
-  id: "fabron" | "cagnes" | "poetes" | "clemenceau" | "pierlas" | "antibes" | "riquier";
+  id: "fabron" | "cagnes" | "poetes" | "clemenceau" | "pierlas" | "antibes" | "riquier" | "prefecture";
   images: { key: ImageKey; file: string; span: boolean }[];
 }[] = [
   {
@@ -78,6 +78,16 @@ const showcases: {
       { key: "luxe", file: "riquier-sdb.png", span: false },
     ],
   },
+  {
+    id: "prefecture",
+    images: [
+      { key: "villa", file: "prefecture-balcon.png", span: true },
+      { key: "appt", file: "prefecture-sejour.png", span: false },
+      { key: "terrain", file: "prefecture-chambre.png", span: false },
+      { key: "interieur", file: "prefecture-cuisine.png", span: false },
+      { key: "luxe", file: "prefecture-sdb.png", span: false },
+    ],
+  },
 ];
 
 function Multiline({ text }: { text: string }) {
@@ -94,7 +104,7 @@ function PropertyGrid({
   images,
   t,
 }: {
-  id: "fabron" | "cagnes" | "poetes" | "clemenceau" | "pierlas" | "antibes" | "riquier";
+  id: "fabron" | "cagnes" | "poetes" | "clemenceau" | "pierlas" | "antibes" | "riquier" | "prefecture";
   images: (typeof showcases)[number]["images"];
   t: ReturnType<typeof useTranslations<"gallery">>;
 }) {
