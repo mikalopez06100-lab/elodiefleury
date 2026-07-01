@@ -62,7 +62,7 @@
   },
   "gallery": {
     "eyebrow": "Property selection",
-    "title": "From Nice to Cagnes,\ncarefully presented homes.",
+    "title": "On the French Riviera,\ncarefully presented homes.",
     "fabron": {
       "label": "Nice · Fabron",
       "subtitle": "Renovated apartment · Sea view",
@@ -90,6 +90,20 @@
       "interieur_title": "Equipped kitchen",
       "luxe_city": "Cagnes-sur-Mer",
       "luxe_title": "Living space"
+    },
+    "poetes": {
+      "label": "Nice · Quartier des Poètes",
+      "subtitle": "Bright apartment · Balcony",
+      "villa_city": "Nice · Les Poètes",
+      "villa_title": "Neighbourhood view",
+      "appt_city": "Nice · Les Poètes",
+      "appt_title": "Living room · Balcony",
+      "terrain_city": "Nice · Les Poètes",
+      "terrain_title": "Bright bedroom",
+      "interieur_city": "Nice · Les Poètes",
+      "interieur_title": "Kitchen area",
+      "luxe_city": "Nice · Les Poètes",
+      "luxe_title": "Bathroom"
     }
   },
   "zones": {

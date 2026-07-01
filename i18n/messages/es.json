@@ -62,7 +62,7 @@
   },
   "gallery": {
     "eyebrow": "Selección de inmuebles",
-    "title": "De Niza a Cagnes,\ninmuebles cuidadosamente presentados.",
+    "title": "En la Costa Azul,\ninmuebles cuidadosamente presentados.",
     "fabron": {
       "label": "Niza · Fabron",
       "subtitle": "Apartamento reformado · Vista al mar",
@@ -90,6 +90,20 @@
       "interieur_title": "Cocina equipada",
       "luxe_city": "Cagnes-sur-Mer",
       "luxe_title": "Espacio de vida"
+    },
+    "poetes": {
+      "label": "Niza · Barrio de los Poetas",
+      "subtitle": "Apartamento luminoso · Balcón",
+      "villa_city": "Niza · Les Poètes",
+      "villa_title": "Vista del barrio",
+      "appt_city": "Niza · Les Poètes",
+      "appt_title": "Salón · Balcón",
+      "terrain_city": "Niza · Les Poètes",
+      "terrain_title": "Dormitorio luminoso",
+      "interieur_city": "Niza · Les Poètes",
+      "interieur_title": "Zona cocina",
+      "luxe_city": "Niza · Les Poètes",
+      "luxe_title": "Baño"
     }
   },
   "zones": {

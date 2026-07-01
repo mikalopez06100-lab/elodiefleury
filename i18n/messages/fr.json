@@ -62,7 +62,7 @@
   },
   "gallery": {
     "eyebrow": "Sélection de biens · Selección",
-    "title": "De Nice à Cagnes,\ndes biens soigneusement présentés.",
+    "title": "Sur la Côte d'Azur,\ndes biens soigneusement présentés.",
     "fabron": {
       "label": "Nice · Fabron",
       "subtitle": "Appartement rénové · Vue mer",
@@ -90,6 +90,20 @@
       "interieur_title": "Cuisine équipée",
       "luxe_city": "Cagnes-sur-Mer",
       "luxe_title": "Espace de vie"
+    },
+    "poetes": {
+      "label": "Nice · Quartier des Poètes",
+      "subtitle": "Appartement lumineux · Balcon",
+      "villa_city": "Nice · Les Poètes",
+      "villa_title": "Vue sur le quartier",
+      "appt_city": "Nice · Les Poètes",
+      "appt_title": "Séjour · Balcon",
+      "terrain_city": "Nice · Les Poètes",
+      "terrain_title": "Chambre lumineuse",
+      "interieur_city": "Nice · Les Poètes",
+      "interieur_title": "Coin cuisine",
+      "luxe_city": "Nice · Les Poètes",
+      "luxe_title": "Salle de bain"
     }
   },
   "zones": {
