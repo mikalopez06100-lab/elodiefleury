@@ -13,6 +13,16 @@ export default function Footer() {
           {siteConfig.slogan}
         </p>
         <p className="mb-1 text-[0.73rem] text-white/28">{t("legal")}</p>
+        <p className="mb-1 text-[0.73rem] text-white/28">
+          <a
+            href={siteConfig.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-colors hover:text-white/45"
+          >
+            {t("linkedin")}
+          </a>
+        </p>
         <p className="text-[0.73rem] text-white/28">
           <a
             href={siteConfig.yourbnb}

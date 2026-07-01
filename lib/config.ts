@@ -7,6 +7,7 @@ export const siteConfig = {
     process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "33627121413",
   email: "info@elodiefleury.fr",
   instagram: "https://www.instagram.com/immo_elo",
+  linkedin: "https://www.linkedin.com/in/elodie-immo",
   yourbnb: "https://www.yourbnb06.fr",
   gmb: "https://g.page/r/",
   rsac: "925 155 855",

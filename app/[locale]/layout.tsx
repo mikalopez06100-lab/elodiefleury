@@ -115,7 +115,7 @@ const jsonLd = {
     reviewCount: "18",
     bestRating: "5",
   },
-  sameAs: [siteConfig.instagram, siteConfig.yourbnb],
+  sameAs: [siteConfig.instagram, siteConfig.linkedin, siteConfig.yourbnb],
 };
 
 export default async function LocaleLayout({ children, params }: Props) {
