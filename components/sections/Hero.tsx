@@ -54,13 +54,13 @@ export default function Hero() {
           style={prefersReducedMotion ? undefined : { y }}
         >
           <Image
-            src="/images/hero-cagnes.png"
-            alt="Salon et cuisine rénovés, Cagnes-sur-Mer"
+            src="/images/hero-clemenceau-balcon.png"
+            alt="Balcon et vue sur l'architecture niçoise, rue Clemenceau"
             fill
             priority
             quality={80}
             sizes="100vw"
-            className="object-cover object-[center_45%] brightness-[0.88] contrast-[0.98] saturate-[0.9]"
+            className="object-cover object-[center_38%] brightness-[0.82] contrast-[0.96] saturate-[0.88]"
           />
         </motion.div>
         <div
