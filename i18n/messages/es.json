@@ -284,11 +284,13 @@
     "body": "Compra, venta, gestión vacacional — le respondo en menos de 2 horas, en español o en francés.",
     "whatsapp_label": "WhatsApp (FR · ES · EN)",
     "email_label": "Email",
-    "instagram_label": "Instagram"
+    "instagram_label": "Instagram",
+    "linkedin_label": "LinkedIn"
   },
   "footer": {
     "legal": "© 2026 Elodie Fleury — Agente comercial EI · RSAC Nice n° 925 155 855",
-    "linkedin": "LinkedIn — Elodie Fleury · Inmobiliaria Costa Azul",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram",
     "yourbnb": "YourBnB06 — Conserjería premium Costa Azul · yourbnb06.fr"
   },
   "metadata": {

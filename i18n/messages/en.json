@@ -284,11 +284,13 @@
     "body": "Buying, selling, rental management — I reply within 2 hours in English, French or Spanish.",
     "whatsapp_label": "WhatsApp (FR · ES · EN)",
     "email_label": "Email",
-    "instagram_label": "Instagram"
+    "instagram_label": "Instagram",
+    "linkedin_label": "LinkedIn"
   },
   "footer": {
     "legal": "© 2026 Elodie Fleury — Independent agent · RSAC Nice n° 925 155 855",
-    "linkedin": "LinkedIn — Elodie Fleury · French Riviera real estate",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram",
     "yourbnb": "YourBnB06 — Premium concierge French Riviera · yourbnb06.fr"
   },
   "metadata": {

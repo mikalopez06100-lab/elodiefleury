@@ -284,11 +284,13 @@
     "body": "Achat, vente, gestion saisonnière — je réponds en moins de 2h, en français ou en espagnol.",
     "whatsapp_label": "WhatsApp (FR · ES · EN)",
     "email_label": "Email",
-    "instagram_label": "Instagram"
+    "instagram_label": "Instagram",
+    "linkedin_label": "LinkedIn"
   },
   "footer": {
     "legal": "© 2026 Elodie Fleury — Agente commerciale EI · RSAC Nice n° 925 155 855",
-    "linkedin": "LinkedIn — Elodie Fleury · Immobilier Côte d'Azur",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram",
     "yourbnb": "YourBnB06 — Conciergerie premium Côte d'Azur · yourbnb06.fr"
   },
   "metadata": {
