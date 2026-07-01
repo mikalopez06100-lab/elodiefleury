@@ -118,6 +118,20 @@
       "interieur_title": "Cuisine équipée",
       "luxe_city": "Nice · Centre",
       "luxe_title": "Salle de bain marbre"
+    },
+    "pierlas": {
+      "label": "Nice · Rue Pierlas",
+      "subtitle": "Appartement rénové · Centre-ville",
+      "villa_city": "Nice · Centre",
+      "villa_title": "Terrasse aménagée",
+      "appt_city": "Nice · Centre",
+      "appt_title": "Séjour lumineux",
+      "terrain_city": "Nice · Centre",
+      "terrain_title": "Chambre design",
+      "interieur_city": "Nice · Centre",
+      "interieur_title": "Cuisine équipée",
+      "luxe_city": "Nice · Centre",
+      "luxe_title": "Salle de bain"
     }
   },
   "zones": {

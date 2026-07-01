@@ -118,6 +118,20 @@
       "interieur_title": "Cocina equipada",
       "luxe_city": "Niza · Centro",
       "luxe_title": "Baño en mármol"
+    },
+    "pierlas": {
+      "label": "Niza · Rue Pierlas",
+      "subtitle": "Piso reformado · Centro ciudad",
+      "villa_city": "Niza · Centro",
+      "villa_title": "Terraza amueblada",
+      "appt_city": "Niza · Centro",
+      "appt_title": "Salón luminoso",
+      "terrain_city": "Niza · Centro",
+      "terrain_title": "Dormitorio de diseño",
+      "interieur_city": "Niza · Centro",
+      "interieur_title": "Cocina equipada",
+      "luxe_city": "Niza · Centro",
+      "luxe_title": "Baño"
     }
   },
   "zones": {

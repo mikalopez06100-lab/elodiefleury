@@ -118,6 +118,20 @@
       "interieur_title": "Equipped kitchen",
       "luxe_city": "Nice · City centre",
       "luxe_title": "Marble bathroom"
+    },
+    "pierlas": {
+      "label": "Nice · Rue Pierlas",
+      "subtitle": "Renovated apartment · City centre",
+      "villa_city": "Nice · City centre",
+      "villa_title": "Furnished terrace",
+      "appt_city": "Nice · City centre",
+      "appt_title": "Bright living area",
+      "terrain_city": "Nice · City centre",
+      "terrain_title": "Designer bedroom",
+      "interieur_city": "Nice · City centre",
+      "interieur_title": "Equipped kitchen",
+      "luxe_city": "Nice · City centre",
+      "luxe_title": "Bathroom"
     }
   },
   "zones": {
