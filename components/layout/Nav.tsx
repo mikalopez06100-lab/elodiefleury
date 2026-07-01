@@ -11,7 +11,7 @@ import type { Locale } from "@/i18n/routing";
 const navLinks = [
   { href: "/#profil", key: "profil" as const, isHash: true },
   { href: "/#services", key: "services" as const, isHash: true },
-  { href: "/#biens", key: "biens" as const, isHash: true },
+  { href: "/biens", key: "biens" as const, isHash: false },
   { href: "/#avis", key: "avis" as const, isHash: true },
   { href: "/blog", key: "blog" as const, isHash: false },
   { href: "/#contact", key: "contact" as const, isHash: true },
@@ -24,6 +24,7 @@ export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const isBlog = pathname.startsWith("/blog");
+  const isBiens = pathname.startsWith("/biens");
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
@@ -48,7 +49,7 @@ export default function Nav() {
     <>
       <nav
         className={`fixed left-0 right-0 top-9 z-[200] border-b transition-all duration-350 ease-out-expo ${
-          scrolled || isBlog
+          scrolled || isBlog || isBiens
             ? "border-white/10 bg-tinta/97 shadow-[0_4px_24px_rgba(42,38,34,0.22)] backdrop-blur-md"
             : "border-white/8 bg-tinta/92 backdrop-blur-md"
         }`}
@@ -72,7 +73,9 @@ export default function Nav() {
                 <Link
                   key={link.key}
                   href={link.href}
-                  className={linkClass(isBlog)}
+                  className={linkClass(
+                    link.key === "blog" ? isBlog : link.key === "biens" ? isBiens : false
+                  )}
                 >
                   {t(link.key)}
                 </Link>

@@ -63,6 +63,7 @@
   "gallery": {
     "eyebrow": "Property selection",
     "title": "On the French Riviera,\ncarefully presented homes.",
+    "view_all": "View all properties",
     "fabron": {
       "label": "Nice · Fabron",
       "subtitle": "Renovated apartment · Sea view",
@@ -174,7 +175,28 @@
       "interieur_title": "Equipped kitchen",
       "luxe_city": "Nice",
       "luxe_title": "Bathroom"
+    },
+    "cannes": {
+      "label": "Cannes · City centre",
+      "subtitle": "Renovated apartment · Herringbone floors",
+      "villa_city": "Cannes",
+      "villa_title": "Neighbourhood view",
+      "appt_city": "Cannes",
+      "appt_title": "Bright living area",
+      "terrain_city": "Cannes",
+      "terrain_title": "Herringbone bedroom",
+      "interieur_city": "Cannes",
+      "interieur_title": "Equipped kitchen",
+      "luxe_city": "Cannes",
+      "luxe_title": "Bathroom"
     }
+  },
+  "biens": {
+    "meta_title": "Properties — French Riviera | Elodie Fleury",
+    "meta_description": "Browse all properties presented by Elodie Fleury on the French Riviera: renovated apartments in Nice, Cannes, Antibes and beyond.",
+    "eyebrow": "Portfolio · Listings",
+    "title": "All properties",
+    "subtitle": "Renovated apartments carefully presented from Cannes to Nice — each property reflects Elodie Fleury's standards and expertise."
   },
   "zones": {
     "eyebrow": "Coverage area",

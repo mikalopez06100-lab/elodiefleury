@@ -63,6 +63,7 @@
   "gallery": {
     "eyebrow": "Sélection de biens · Selección",
     "title": "Sur la Côte d'Azur,\ndes biens soigneusement présentés.",
+    "view_all": "Voir tous les biens",
     "fabron": {
       "label": "Nice · Fabron",
       "subtitle": "Appartement rénové · Vue mer",
@@ -174,7 +175,28 @@
       "interieur_title": "Cuisine équipée",
       "luxe_city": "Nice",
       "luxe_title": "Salle de bain"
+    },
+    "cannes": {
+      "label": "Cannes · Centre",
+      "subtitle": "Appartement rénové · Parquet",
+      "villa_city": "Cannes",
+      "villa_title": "Vue sur le quartier",
+      "appt_city": "Cannes",
+      "appt_title": "Séjour lumineux",
+      "terrain_city": "Cannes",
+      "terrain_title": "Chambre parquet",
+      "interieur_city": "Cannes",
+      "interieur_title": "Cuisine équipée",
+      "luxe_city": "Cannes",
+      "luxe_title": "Salle de bain"
     }
+  },
+  "biens": {
+    "meta_title": "Biens immobiliers — Côte d'Azur | Elodie Fleury",
+    "meta_description": "Découvrez tous les biens présentés par Elodie Fleury sur la Côte d'Azur : appartements rénovés à Nice, Cannes, Antibes et alentours.",
+    "eyebrow": "Portfolio · Réalisations",
+    "title": "Tous les biens",
+    "subtitle": "Appartements rénovés et soigneusement présentés de Cannes à Nice — chaque bien reflète l'exigence et le savoir-faire d'Elodie Fleury."
   },
   "zones": {
     "eyebrow": "Secteur · Área",

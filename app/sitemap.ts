@@ -4,6 +4,7 @@ import {
   blogIndexUrl,
   getAllArticles,
 } from "@/lib/blog";
+import { biensIndexUrl } from "@/lib/properties";
 import { routing } from "@/i18n/routing";
 import { siteConfig } from "@/lib/config";
 
@@ -22,6 +23,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
         es: `${baseUrl}/es`,
         en: `${baseUrl}/en`,
         "x-default": baseUrl,
+      },
+    },
+  }));
+
+  const biensPages = routing.locales.map((locale) => ({
+    url: biensIndexUrl(locale, baseUrl),
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.9,
+    alternates: {
+      languages: {
+        fr: `${baseUrl}/biens`,
+        es: `${baseUrl}/es/biens`,
+        en: `${baseUrl}/en/biens`,
+        "x-default": `${baseUrl}/biens`,
       },
     },
   }));
@@ -48,5 +64,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...homePages, ...blogIndexes, ...articlePages];
+  return [...homePages, ...biensPages, ...blogIndexes, ...articlePages];
 }

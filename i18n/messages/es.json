@@ -63,6 +63,7 @@
   "gallery": {
     "eyebrow": "Selección de inmuebles",
     "title": "En la Costa Azul,\ninmuebles cuidadosamente presentados.",
+    "view_all": "Ver todos los inmuebles",
     "fabron": {
       "label": "Niza · Fabron",
       "subtitle": "Apartamento reformado · Vista al mar",
@@ -174,7 +175,28 @@
       "interieur_title": "Cocina equipada",
       "luxe_city": "Niza",
       "luxe_title": "Baño"
+    },
+    "cannes": {
+      "label": "Cannes · Centro",
+      "subtitle": "Apartamento reformado · Parquet",
+      "villa_city": "Cannes",
+      "villa_title": "Vista del barrio",
+      "appt_city": "Cannes",
+      "appt_title": "Salón luminoso",
+      "terrain_city": "Cannes",
+      "terrain_title": "Dormitorio parquet",
+      "interieur_city": "Cannes",
+      "interieur_title": "Cocina equipada",
+      "luxe_city": "Cannes",
+      "luxe_title": "Baño"
     }
+  },
+  "biens": {
+    "meta_title": "Inmuebles — Costa Azul | Elodie Fleury",
+    "meta_description": "Descubra todos los inmuebles presentados por Elodie Fleury en la Costa Azul: apartamentos reformados en Niza, Cannes, Antibes y alrededores.",
+    "eyebrow": "Portfolio · Realizaciones",
+    "title": "Todos los inmuebles",
+    "subtitle": "Apartamentos reformados y cuidadosamente presentados de Cannes a Niza — cada inmueble refleja la exigencia y el saber hacer de Elodie Fleury."
   },
   "zones": {
     "eyebrow": "Área de actividad",
