@@ -1,7 +1,8 @@
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import RevealOnScroll from "@/components/ui/RevealOnScroll";
 import RandomPropertyList from "@/components/sections/RandomPropertyList";
+import { getPropertyShowcases } from "@/lib/properties";
 
 function Multiline({ text }: { text: string }) {
   return text.split("\n").map((line, i, arr) => (
@@ -12,8 +13,9 @@ function Multiline({ text }: { text: string }) {
   ));
 }
 
-export default function Gallery() {
-  const t = useTranslations("gallery");
+export default async function Gallery() {
+  const t = await getTranslations("gallery");
+  const showcases = await getPropertyShowcases();
 
   return (
     <section id="biens" className="bg-tinta py-[72px] md:py-24">
@@ -27,7 +29,7 @@ export default function Gallery() {
           </h2>
         </RevealOnScroll>
 
-        <RandomPropertyList />
+        <RandomPropertyList pool={showcases} />
 
         <RevealOnScroll delay={0.15}>
           <div className="mt-12 text-center">

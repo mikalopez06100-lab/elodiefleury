@@ -1,0 +1,76 @@
+{
+  "id": "saintlaurent",
+  "published": true,
+  "sortOrder": 9,
+  "images": [
+    {
+      "key": "villa",
+      "file": "saintlaurent-balcon.png",
+      "span": true
+    },
+    {
+      "key": "appt",
+      "file": "saintlaurent-sejour.png",
+      "span": false
+    },
+    {
+      "key": "terrain",
+      "file": "saintlaurent-salon.png",
+      "span": false
+    },
+    {
+      "key": "interieur",
+      "file": "saintlaurent-cuisine.png",
+      "span": false
+    },
+    {
+      "key": "luxe",
+      "file": "saintlaurent-sdb.png",
+      "span": false
+    }
+  ],
+  "translations": {
+    "fr": {
+      "label": "Saint-Laurent-du-Var",
+      "subtitle": "Appartement lumineux · Balcon vue mer",
+      "villa_city": "Saint-Laurent-du-Var",
+      "villa_title": "Balcon · Vue mer",
+      "appt_city": "Saint-Laurent-du-Var",
+      "appt_title": "Séjour lumineux",
+      "terrain_city": "Saint-Laurent-du-Var",
+      "terrain_title": "Salon · Coin repas",
+      "interieur_city": "Saint-Laurent-du-Var",
+      "interieur_title": "Cuisine équipée",
+      "luxe_city": "Saint-Laurent-du-Var",
+      "luxe_title": "Salle de bain"
+    },
+    "es": {
+      "label": "Saint-Laurent-du-Var",
+      "subtitle": "Apartamento luminoso · Balcón con vista al mar",
+      "villa_city": "Saint-Laurent-du-Var",
+      "villa_title": "Balcón · Vista al mar",
+      "appt_city": "Saint-Laurent-du-Var",
+      "appt_title": "Salón luminoso",
+      "terrain_city": "Saint-Laurent-du-Var",
+      "terrain_title": "Salón · Comedor",
+      "interieur_city": "Saint-Laurent-du-Var",
+      "interieur_title": "Cocina equipada",
+      "luxe_city": "Saint-Laurent-du-Var",
+      "luxe_title": "Baño"
+    },
+    "en": {
+      "label": "Saint-Laurent-du-Var",
+      "subtitle": "Bright apartment · Sea-view balcony",
+      "villa_city": "Saint-Laurent-du-Var",
+      "villa_title": "Balcony · Sea view",
+      "appt_city": "Saint-Laurent-du-Var",
+      "appt_title": "Bright living area",
+      "terrain_city": "Saint-Laurent-du-Var",
+      "terrain_title": "Living · Dining area",
+      "interieur_city": "Saint-Laurent-du-Var",
+      "interieur_title": "Equipped kitchen",
+      "luxe_city": "Saint-Laurent-du-Var",
+      "luxe_title": "Bathroom"
+    }
+  }
+}

@@ -22,8 +22,9 @@ type Props = {
   params: Promise<{ locale: string; slug: string }>;
 };
 
-export function generateStaticParams() {
-  return getAllArticles().map((article) => ({
+export async function generateStaticParams() {
+  const articles = await getAllArticles();
+  return articles.map((article) => ({
     locale: article.locale,
     slug: article.slug,
   }));
@@ -31,7 +32,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
-  const article = getArticleBySlug(locale, slug);
+  const article = await getArticleBySlug(locale, slug);
   if (!article) return {};
 
   const baseUrl = siteConfig.url;
@@ -60,11 +61,11 @@ export default async function BlogArticlePage({ params }: Props) {
   const { locale, slug } = await params;
   setRequestLocale(locale as Locale);
 
-  const article = getArticleBySlug(locale, slug);
+  const article = await getArticleBySlug(locale, slug);
   if (!article) notFound();
 
   const t = await getTranslations("blog");
-  const related = getRelatedArticles(locale, slug);
+  const related = await getRelatedArticles(locale, slug);
   const baseUrl = siteConfig.url;
 
   const articleSchema = {

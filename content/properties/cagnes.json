@@ -1,0 +1,76 @@
+{
+  "id": "cagnes",
+  "published": true,
+  "sortOrder": 1,
+  "images": [
+    {
+      "key": "villa",
+      "file": "cagnes-balcon.png",
+      "span": true
+    },
+    {
+      "key": "appt",
+      "file": "cagnes-sejour.png",
+      "span": false
+    },
+    {
+      "key": "terrain",
+      "file": "cagnes-chambre.png",
+      "span": false
+    },
+    {
+      "key": "interieur",
+      "file": "cagnes-cuisine.png",
+      "span": false
+    },
+    {
+      "key": "luxe",
+      "file": "cagnes-studio.png",
+      "span": false
+    }
+  ],
+  "translations": {
+    "fr": {
+      "label": "Cagnes-sur-Mer",
+      "subtitle": "Studio lumineux · Balcon",
+      "villa_city": "Cagnes-sur-Mer",
+      "villa_title": "Balcon ensoleillé",
+      "appt_city": "Cagnes-sur-Mer",
+      "appt_title": "Studio · Balcon",
+      "terrain_city": "Cagnes-sur-Mer",
+      "terrain_title": "Chambre lumineuse",
+      "interieur_city": "Cagnes-sur-Mer",
+      "interieur_title": "Cuisine équipée",
+      "luxe_city": "Cagnes-sur-Mer",
+      "luxe_title": "Studio · Coin repas"
+    },
+    "es": {
+      "label": "Cagnes-sur-Mer",
+      "subtitle": "Estudio luminoso · Balcón",
+      "villa_city": "Cagnes-sur-Mer",
+      "villa_title": "Balcón soleado",
+      "appt_city": "Cagnes-sur-Mer",
+      "appt_title": "Estudio · Balcón",
+      "terrain_city": "Cagnes-sur-Mer",
+      "terrain_title": "Dormitorio luminoso",
+      "interieur_city": "Cagnes-sur-Mer",
+      "interieur_title": "Cocina equipada",
+      "luxe_city": "Cagnes-sur-Mer",
+      "luxe_title": "Estudio · Comedor"
+    },
+    "en": {
+      "label": "Cagnes-sur-Mer",
+      "subtitle": "Bright studio · Balcony",
+      "villa_city": "Cagnes-sur-Mer",
+      "villa_title": "Sunny balcony",
+      "appt_city": "Cagnes-sur-Mer",
+      "appt_title": "Studio · Balcony",
+      "terrain_city": "Cagnes-sur-Mer",
+      "terrain_title": "Bright bedroom",
+      "interieur_city": "Cagnes-sur-Mer",
+      "interieur_title": "Equipped kitchen",
+      "luxe_city": "Cagnes-sur-Mer",
+      "luxe_title": "Studio · Dining area"
+    }
+  }
+}

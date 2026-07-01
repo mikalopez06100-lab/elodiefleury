@@ -8,9 +8,9 @@ import { biensIndexUrl } from "@/lib/properties";
 import { routing } from "@/i18n/routing";
 import { siteConfig } from "@/lib/config";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = siteConfig.url;
-  const articles = getAllArticles();
+  const articles = await getAllArticles();
 
   const homePages = routing.locales.map((locale) => ({
     url: locale === "fr" ? baseUrl : `${baseUrl}/${locale}`,

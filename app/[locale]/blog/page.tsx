@@ -37,7 +37,7 @@ export default async function BlogIndexPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale as Locale);
   const t = await getTranslations("blog");
-  const articles = getArticlesByLocale(locale);
+  const articles = await getArticlesByLocale(locale);
 
   return (
     <div className="bg-cal pt-[100px]">

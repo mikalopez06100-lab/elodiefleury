@@ -7,16 +7,19 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "extract-blog": "node scripts/extract-blog-articles.mjs"
+    "extract-blog": "node scripts/extract-blog-articles.mjs",
+    "seed-properties": "node scripts/seed-properties-json.mjs"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.4.0",
+    "@vercel/blob": "^2.5.0",
     "framer-motion": "^12.42.0",
     "next": "14.2.35",
     "next-intl": "^4.13.0",
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.80.0",
+    "server-only": "^0.0.1",
     "zod": "^4.4.3"
   },
   "devDependencies": {

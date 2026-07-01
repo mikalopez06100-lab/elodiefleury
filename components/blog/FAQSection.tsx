@@ -1,5 +1,5 @@
 import Script from "next/script";
-import type { BlogFaq } from "@/lib/blog";
+import type { BlogFaq } from "@/lib/blog.shared";
 import type { Locale } from "@/i18n/routing";
 
 type Props = {

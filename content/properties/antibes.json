@@ -1,0 +1,76 @@
+{
+  "id": "antibes",
+  "published": true,
+  "sortOrder": 5,
+  "images": [
+    {
+      "key": "villa",
+      "file": "antibes-balcon.png",
+      "span": true
+    },
+    {
+      "key": "appt",
+      "file": "antibes-sejour.png",
+      "span": false
+    },
+    {
+      "key": "terrain",
+      "file": "antibes-chambre.png",
+      "span": false
+    },
+    {
+      "key": "interieur",
+      "file": "antibes-cuisine.png",
+      "span": false
+    },
+    {
+      "key": "luxe",
+      "file": "antibes-sdb.png",
+      "span": false
+    }
+  ],
+  "translations": {
+    "fr": {
+      "label": "Antibes · Vue mer",
+      "subtitle": "Duplex rénové · Bord de mer",
+      "villa_city": "Antibes",
+      "villa_title": "Séjour · Vue mer",
+      "appt_city": "Antibes",
+      "appt_title": "Séjour lumineux",
+      "terrain_city": "Antibes",
+      "terrain_title": "Chambre mezzanine",
+      "interieur_city": "Antibes",
+      "interieur_title": "Cuisine équipée",
+      "luxe_city": "Antibes",
+      "luxe_title": "Salle de bain"
+    },
+    "es": {
+      "label": "Antibes · Vista al mar",
+      "subtitle": "Dúplex reformado · Frente al mar",
+      "villa_city": "Antibes",
+      "villa_title": "Salón · Vista al mar",
+      "appt_city": "Antibes",
+      "appt_title": "Salón luminoso",
+      "terrain_city": "Antibes",
+      "terrain_title": "Dormitorio en altillo",
+      "interieur_city": "Antibes",
+      "interieur_title": "Cocina equipada",
+      "luxe_city": "Antibes",
+      "luxe_title": "Baño"
+    },
+    "en": {
+      "label": "Antibes · Sea view",
+      "subtitle": "Renovated duplex · Seaside",
+      "villa_city": "Antibes",
+      "villa_title": "Living area · Sea view",
+      "appt_city": "Antibes",
+      "appt_title": "Bright living area",
+      "terrain_city": "Antibes",
+      "terrain_title": "Mezzanine bedroom",
+      "interieur_city": "Antibes",
+      "interieur_title": "Equipped kitchen",
+      "luxe_city": "Antibes",
+      "luxe_title": "Bathroom"
+    }
+  }
+}

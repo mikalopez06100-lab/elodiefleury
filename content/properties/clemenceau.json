@@ -1,0 +1,76 @@
+{
+  "id": "clemenceau",
+  "published": true,
+  "sortOrder": 3,
+  "images": [
+    {
+      "key": "villa",
+      "file": "clemenceau-balcon.png",
+      "span": true
+    },
+    {
+      "key": "appt",
+      "file": "clemenceau-sejour.png",
+      "span": false
+    },
+    {
+      "key": "terrain",
+      "file": "clemenceau-chambre.png",
+      "span": false
+    },
+    {
+      "key": "interieur",
+      "file": "clemenceau-cuisine.png",
+      "span": false
+    },
+    {
+      "key": "luxe",
+      "file": "clemenceau-sdb.png",
+      "span": false
+    }
+  ],
+  "translations": {
+    "fr": {
+      "label": "Nice · Rue Clemenceau",
+      "subtitle": "Studio rénové · Centre-ville",
+      "villa_city": "Nice · Centre",
+      "villa_title": "Balcon · Façade Belle Époque",
+      "appt_city": "Nice · Centre",
+      "appt_title": "Séjour design",
+      "terrain_city": "Nice · Centre",
+      "terrain_title": "Coin nuit",
+      "interieur_city": "Nice · Centre",
+      "interieur_title": "Cuisine équipée",
+      "luxe_city": "Nice · Centre",
+      "luxe_title": "Salle de bain marbre"
+    },
+    "es": {
+      "label": "Niza · Rue Clemenceau",
+      "subtitle": "Estudio reformado · Centro ciudad",
+      "villa_city": "Niza · Centro",
+      "villa_title": "Balcón · Fachada Belle Époque",
+      "appt_city": "Niza · Centro",
+      "appt_title": "Salón de diseño",
+      "terrain_city": "Niza · Centro",
+      "terrain_title": "Zona de descanso",
+      "interieur_city": "Niza · Centro",
+      "interieur_title": "Cocina equipada",
+      "luxe_city": "Niza · Centro",
+      "luxe_title": "Baño en mármol"
+    },
+    "en": {
+      "label": "Nice · Rue Clemenceau",
+      "subtitle": "Renovated studio · City centre",
+      "villa_city": "Nice · City centre",
+      "villa_title": "Balcony · Belle Époque facade",
+      "appt_city": "Nice · City centre",
+      "appt_title": "Designer living area",
+      "terrain_city": "Nice · City centre",
+      "terrain_title": "Sleeping nook",
+      "interieur_city": "Nice · City centre",
+      "interieur_title": "Equipped kitchen",
+      "luxe_city": "Nice · City centre",
+      "luxe_title": "Marble bathroom"
+    }
+  }
+}

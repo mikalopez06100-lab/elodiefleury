@@ -1,95 +1,76 @@
-import fs from "fs";
-import path from "path";
+import "server-only";
+
+import { unstable_cache } from "next/cache";
 import type { Locale } from "@/i18n/routing";
+import { listCmsJsonFiles, readCmsJson } from "@/lib/cms/storage";
+import type { BlogArticle } from "@/lib/blog.shared";
 
-export type BlogFaq = {
-  question: string;
-  answer: string;
-};
+export type { BlogArticle, BlogFaq } from "@/lib/blog.shared";
 
-export type BlogArticle = {
-  title: string;
-  slug: string;
-  locale: Locale;
-  date: string;
-  updatedAt: string;
-  description: string;
-  keywords: string[];
-  category: string;
-  readingTime: number;
-  alternates: { fr: string; es: string; en: string };
-  bodyHtml: string;
-  faqs: BlogFaq[];
-};
+export {
+  blogArticleAlternates,
+  blogArticleUrl,
+  blogIndexUrl,
+  defaultBlogArticle,
+  estimateReadingTime,
+} from "@/lib/blog.shared";
 
-const CONTENT_DIR = path.join(process.cwd(), "content/blog");
+const BLOG_DIR = "content/blog";
 const LOCALES: Locale[] = ["fr", "es", "en"];
 
-function readArticleFile(locale: string, slug: string): BlogArticle | null {
-  const filepath = path.join(CONTENT_DIR, locale, `${slug}.json`);
-  if (!fs.existsSync(filepath)) return null;
-  const raw = fs.readFileSync(filepath, "utf8");
-  return JSON.parse(raw) as BlogArticle;
-}
-
-export function getArticlesByLocale(locale: string): BlogArticle[] {
-  const dir = path.join(CONTENT_DIR, locale);
-  if (!fs.existsSync(dir)) return [];
-
-  return fs
-    .readdirSync(dir)
-    .filter((f) => f.endsWith(".json"))
-    .map((filename) => {
-      const raw = fs.readFileSync(path.join(dir, filename), "utf8");
-      return JSON.parse(raw) as BlogArticle;
-    })
-    .sort(
-      (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
-    );
-}
-
-export function getArticleBySlug(
+async function readArticleFile(
   locale: string,
   slug: string
-): BlogArticle | null {
+): Promise<BlogArticle | null> {
+  return readCmsJson<BlogArticle>(`${BLOG_DIR}/${locale}/${slug}.json`);
+}
+
+async function loadArticlesByLocale(locale: string): Promise<BlogArticle[]> {
+  const dir = `${BLOG_DIR}/${locale}`;
+  const files = await listCmsJsonFiles(dir);
+
+  const articles = (
+    await Promise.all(
+      files.map(async (file) => readCmsJson<BlogArticle>(file))
+    )
+  ).filter((item): item is BlogArticle => item !== null);
+
+  return articles.sort(
+    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
+}
+
+const getCachedArticlesByLocale = unstable_cache(
+  async (locale: string) => loadArticlesByLocale(locale),
+  ["blog-articles-by-locale"],
+  { tags: ["blog"] }
+);
+
+export async function getArticlesByLocale(
+  locale: string
+): Promise<BlogArticle[]> {
+  return getCachedArticlesByLocale(locale);
+}
+
+export async function getArticleBySlug(
+  locale: string,
+  slug: string
+): Promise<BlogArticle | null> {
   return readArticleFile(locale, slug);
 }
 
-export function getAllArticles(): BlogArticle[] {
-  return LOCALES.flatMap((locale) => getArticlesByLocale(locale));
+export async function getAllArticles(): Promise<BlogArticle[]> {
+  const articles = await Promise.all(
+    LOCALES.map((locale) => getArticlesByLocale(locale))
+  );
+  return articles.flat();
 }
 
-export function getRelatedArticles(
+export async function getRelatedArticles(
   locale: string,
   currentSlug: string,
   limit = 2
-): BlogArticle[] {
-  return getArticlesByLocale(locale)
-    .filter((a) => a.slug !== currentSlug)
-    .slice(0, limit);
-}
-
-export function blogIndexUrl(locale: Locale, baseUrl: string): string {
-  return locale === "fr" ? `${baseUrl}/blog` : `${baseUrl}/${locale}/blog`;
-}
-
-export function blogArticleUrl(
-  locale: Locale,
-  slug: string,
-  baseUrl: string
-): string {
-  const prefix = locale === "fr" ? "" : `/${locale}`;
-  return `${baseUrl}${prefix}/blog/${slug}`;
-}
-
-export function blogArticleAlternates(
-  article: BlogArticle,
-  baseUrl: string
-): Record<string, string> {
-  return {
-    fr: blogArticleUrl("fr", article.alternates.fr, baseUrl),
-    es: blogArticleUrl("es", article.alternates.es, baseUrl),
-    en: blogArticleUrl("en", article.alternates.en, baseUrl),
-    "x-default": blogArticleUrl("fr", article.alternates.fr, baseUrl),
-  };
+): Promise<BlogArticle[]> {
+  const articles = await getArticlesByLocale(locale);
+  return articles.filter((a) => a.slug !== currentSlug).slice(0, limit);
 }

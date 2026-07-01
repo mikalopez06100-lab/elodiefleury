@@ -1,0 +1,76 @@
+{
+  "id": "riquier",
+  "published": true,
+  "sortOrder": 6,
+  "images": [
+    {
+      "key": "villa",
+      "file": "riquier-balcon.png",
+      "span": true
+    },
+    {
+      "key": "appt",
+      "file": "riquier-sejour.png",
+      "span": false
+    },
+    {
+      "key": "terrain",
+      "file": "riquier-chambre.png",
+      "span": false
+    },
+    {
+      "key": "interieur",
+      "file": "riquier-cuisine.png",
+      "span": false
+    },
+    {
+      "key": "luxe",
+      "file": "riquier-sdb.png",
+      "span": false
+    }
+  ],
+  "translations": {
+    "fr": {
+      "label": "Nice · Riquier",
+      "subtitle": "Duplex rénové · Centre-ville",
+      "villa_city": "Nice",
+      "villa_title": "Balcon · Vue dégagée",
+      "appt_city": "Nice",
+      "appt_title": "Séjour lumineux",
+      "terrain_city": "Nice",
+      "terrain_title": "Chambre mezzanine",
+      "interieur_city": "Nice",
+      "interieur_title": "Cuisine équipée",
+      "luxe_city": "Nice",
+      "luxe_title": "Salle de bain"
+    },
+    "es": {
+      "label": "Niza · Riquier",
+      "subtitle": "Dúplex reformado · Centro",
+      "villa_city": "Niza",
+      "villa_title": "Balcón · Vista abierta",
+      "appt_city": "Niza",
+      "appt_title": "Salón luminoso",
+      "terrain_city": "Niza",
+      "terrain_title": "Dormitorio en altillo",
+      "interieur_city": "Niza",
+      "interieur_title": "Cocina equipada",
+      "luxe_city": "Niza",
+      "luxe_title": "Baño"
+    },
+    "en": {
+      "label": "Nice · Riquier",
+      "subtitle": "Renovated duplex · City center",
+      "villa_city": "Nice",
+      "villa_title": "Balcony · Open view",
+      "appt_city": "Nice",
+      "appt_title": "Bright living area",
+      "terrain_city": "Nice",
+      "terrain_title": "Mezzanine bedroom",
+      "interieur_city": "Nice",
+      "interieur_title": "Equipped kitchen",
+      "luxe_city": "Nice",
+      "luxe_title": "Bathroom"
+    }
+  }
+}

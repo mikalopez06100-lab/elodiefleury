@@ -1,0 +1,76 @@
+{
+  "id": "cannes",
+  "published": true,
+  "sortOrder": 8,
+  "images": [
+    {
+      "key": "villa",
+      "file": "cannes-vue.png",
+      "span": true
+    },
+    {
+      "key": "appt",
+      "file": "cannes-sejour.png",
+      "span": false
+    },
+    {
+      "key": "terrain",
+      "file": "cannes-chambre.png",
+      "span": false
+    },
+    {
+      "key": "interieur",
+      "file": "cannes-cuisine.png",
+      "span": false
+    },
+    {
+      "key": "luxe",
+      "file": "cannes-sdb.png",
+      "span": false
+    }
+  ],
+  "translations": {
+    "fr": {
+      "label": "Cannes · Centre",
+      "subtitle": "Appartement rénové · Parquet",
+      "villa_city": "Cannes",
+      "villa_title": "Chambre · Dressing",
+      "appt_city": "Cannes",
+      "appt_title": "Chambre · Vue quartier",
+      "terrain_city": "Cannes",
+      "terrain_title": "Cuisine · Séjour ouvert",
+      "interieur_city": "Cannes",
+      "interieur_title": "Chambre · Bureau",
+      "luxe_city": "Cannes",
+      "luxe_title": "Cuisine équipée"
+    },
+    "es": {
+      "label": "Cannes · Centro",
+      "subtitle": "Apartamento reformado · Parquet",
+      "villa_city": "Cannes",
+      "villa_title": "Dormitorio · Armario empotrado",
+      "appt_city": "Cannes",
+      "appt_title": "Dormitorio · Vista del barrio",
+      "terrain_city": "Cannes",
+      "terrain_title": "Cocina · Salón abierto",
+      "interieur_city": "Cannes",
+      "interieur_title": "Dormitorio · Escritorio",
+      "luxe_city": "Cannes",
+      "luxe_title": "Cocina equipada"
+    },
+    "en": {
+      "label": "Cannes · City centre",
+      "subtitle": "Renovated apartment · Herringbone floors",
+      "villa_city": "Cannes",
+      "villa_title": "Bedroom · Built-in wardrobe",
+      "appt_city": "Cannes",
+      "appt_title": "Bedroom · Neighbourhood view",
+      "terrain_city": "Cannes",
+      "terrain_title": "Kitchen · Open living area",
+      "interieur_city": "Cannes",
+      "interieur_title": "Bedroom · Desk area",
+      "luxe_city": "Cannes",
+      "luxe_title": "Equipped kitchen"
+    }
+  }
+}

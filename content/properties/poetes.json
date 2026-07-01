@@ -1,0 +1,76 @@
+{
+  "id": "poetes",
+  "published": true,
+  "sortOrder": 2,
+  "images": [
+    {
+      "key": "villa",
+      "file": "poetes-balcon.png",
+      "span": true
+    },
+    {
+      "key": "appt",
+      "file": "poetes-sejour.png",
+      "span": false
+    },
+    {
+      "key": "terrain",
+      "file": "poetes-chambre.png",
+      "span": false
+    },
+    {
+      "key": "interieur",
+      "file": "poetes-cuisine.png",
+      "span": false
+    },
+    {
+      "key": "luxe",
+      "file": "poetes-sdb.png",
+      "span": false
+    }
+  ],
+  "translations": {
+    "fr": {
+      "label": "Nice · Quartier des Poètes",
+      "subtitle": "Appartement lumineux · Balcon",
+      "villa_city": "Nice · Les Poètes",
+      "villa_title": "Vue sur le quartier",
+      "appt_city": "Nice · Les Poètes",
+      "appt_title": "Séjour · Balcon",
+      "terrain_city": "Nice · Les Poètes",
+      "terrain_title": "Chambre lumineuse",
+      "interieur_city": "Nice · Les Poètes",
+      "interieur_title": "Salon · Cuisine ouverte",
+      "luxe_city": "Nice · Les Poètes",
+      "luxe_title": "Salle de bain"
+    },
+    "es": {
+      "label": "Niza · Barrio de los Poetas",
+      "subtitle": "Apartamento luminoso · Balcón",
+      "villa_city": "Niza · Les Poètes",
+      "villa_title": "Vista del barrio",
+      "appt_city": "Niza · Les Poètes",
+      "appt_title": "Salón · Balcón",
+      "terrain_city": "Niza · Les Poètes",
+      "terrain_title": "Dormitorio luminoso",
+      "interieur_city": "Niza · Les Poètes",
+      "interieur_title": "Salón · Cocina abierta",
+      "luxe_city": "Niza · Les Poètes",
+      "luxe_title": "Baño"
+    },
+    "en": {
+      "label": "Nice · Quartier des Poètes",
+      "subtitle": "Bright apartment · Balcony",
+      "villa_city": "Nice · Les Poètes",
+      "villa_title": "Neighbourhood view",
+      "appt_city": "Nice · Les Poètes",
+      "appt_title": "Living room · Balcony",
+      "terrain_city": "Nice · Les Poètes",
+      "terrain_title": "Bright bedroom",
+      "interieur_city": "Nice · Les Poètes",
+      "interieur_title": "Living area · Open kitchen",
+      "luxe_city": "Nice · Les Poètes",
+      "luxe_title": "Bathroom"
+    }
+  }
+}

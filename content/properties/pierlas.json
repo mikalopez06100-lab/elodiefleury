@@ -1,0 +1,76 @@
+{
+  "id": "pierlas",
+  "published": true,
+  "sortOrder": 4,
+  "images": [
+    {
+      "key": "villa",
+      "file": "pierlas-balcon.png",
+      "span": true
+    },
+    {
+      "key": "appt",
+      "file": "pierlas-sejour.png",
+      "span": false
+    },
+    {
+      "key": "terrain",
+      "file": "pierlas-chambre.png",
+      "span": false
+    },
+    {
+      "key": "interieur",
+      "file": "pierlas-cuisine.png",
+      "span": false
+    },
+    {
+      "key": "luxe",
+      "file": "pierlas-sdb.png",
+      "span": false
+    }
+  ],
+  "translations": {
+    "fr": {
+      "label": "Nice · Rue Pierlas",
+      "subtitle": "Appartement rénové · Centre-ville",
+      "villa_city": "Nice · Centre",
+      "villa_title": "Terrasse aménagée",
+      "appt_city": "Nice · Centre",
+      "appt_title": "Séjour lumineux",
+      "terrain_city": "Nice · Centre",
+      "terrain_title": "Chambre design",
+      "interieur_city": "Nice · Centre",
+      "interieur_title": "Terrasse · Cuisine ouverte",
+      "luxe_city": "Nice · Centre",
+      "luxe_title": "Salle de bain"
+    },
+    "es": {
+      "label": "Niza · Rue Pierlas",
+      "subtitle": "Piso reformado · Centro ciudad",
+      "villa_city": "Niza · Centro",
+      "villa_title": "Terraza amueblada",
+      "appt_city": "Niza · Centro",
+      "appt_title": "Salón luminoso",
+      "terrain_city": "Niza · Centro",
+      "terrain_title": "Dormitorio de diseño",
+      "interieur_city": "Niza · Centro",
+      "interieur_title": "Terraza · Cocina abierta",
+      "luxe_city": "Niza · Centro",
+      "luxe_title": "Baño"
+    },
+    "en": {
+      "label": "Nice · Rue Pierlas",
+      "subtitle": "Renovated apartment · City centre",
+      "villa_city": "Nice · City centre",
+      "villa_title": "Furnished terrace",
+      "appt_city": "Nice · City centre",
+      "appt_title": "Bright living area",
+      "terrain_city": "Nice · City centre",
+      "terrain_title": "Designer bedroom",
+      "interieur_city": "Nice · City centre",
+      "interieur_title": "Terrace · Open kitchen",
+      "luxe_city": "Nice · City centre",
+      "luxe_title": "Bathroom"
+    }
+  }
+}

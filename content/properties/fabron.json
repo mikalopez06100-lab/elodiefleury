@@ -1,0 +1,76 @@
+{
+  "id": "fabron",
+  "published": true,
+  "sortOrder": 0,
+  "images": [
+    {
+      "key": "villa",
+      "file": "fabron-terrace.png",
+      "span": true
+    },
+    {
+      "key": "appt",
+      "file": "fabron-sejour.png",
+      "span": false
+    },
+    {
+      "key": "terrain",
+      "file": "fabron-cuisine.png",
+      "span": false
+    },
+    {
+      "key": "interieur",
+      "file": "fabron-sdb.png",
+      "span": false
+    },
+    {
+      "key": "luxe",
+      "file": "fabron-couloir.png",
+      "span": false
+    }
+  ],
+  "translations": {
+    "fr": {
+      "label": "Nice · Fabron",
+      "subtitle": "Appartement rénové · Vue mer",
+      "villa_city": "Nice · Fabron",
+      "villa_title": "Terrasse · Vue mer",
+      "appt_city": "Nice · Fabron",
+      "appt_title": "Cuisine design",
+      "terrain_city": "Nice · Fabron",
+      "terrain_title": "Chambre · Déco montagne",
+      "interieur_city": "Nice · Fabron",
+      "interieur_title": "Chambre · Lits jumeaux",
+      "luxe_city": "Nice · Fabron",
+      "luxe_title": "Entrée · Vue mer"
+    },
+    "es": {
+      "label": "Niza · Fabron",
+      "subtitle": "Apartamento reformado · Vista al mar",
+      "villa_city": "Niza · Fabron",
+      "villa_title": "Terraza · Vista al mar",
+      "appt_city": "Niza · Fabron",
+      "appt_title": "Cocina de diseño",
+      "terrain_city": "Niza · Fabron",
+      "terrain_title": "Dormitorio · Decoración montaña",
+      "interieur_city": "Niza · Fabron",
+      "interieur_title": "Dormitorio · Camas gemelas",
+      "luxe_city": "Niza · Fabron",
+      "luxe_title": "Entrada · Vista al mar"
+    },
+    "en": {
+      "label": "Nice · Fabron",
+      "subtitle": "Renovated apartment · Sea view",
+      "villa_city": "Nice · Fabron",
+      "villa_title": "Terrace · Sea view",
+      "appt_city": "Nice · Fabron",
+      "appt_title": "Designer kitchen",
+      "terrain_city": "Nice · Fabron",
+      "terrain_title": "Bedroom · Mountain decor",
+      "interieur_city": "Nice · Fabron",
+      "interieur_title": "Bedroom · Twin beds",
+      "luxe_city": "Nice · Fabron",
+      "luxe_title": "Entrance · Sea view"
+    }
+  }
+}

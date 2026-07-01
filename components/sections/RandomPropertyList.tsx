@@ -4,19 +4,22 @@ import { useEffect, useState } from "react";
 import RevealOnScroll from "@/components/ui/RevealOnScroll";
 import PropertyGrid from "@/components/sections/PropertyGrid";
 import {
-  PROPERTY_SHOWCASES,
   pickRandomShowcases,
   type PropertyShowcase,
-} from "@/lib/properties";
+} from "@/lib/properties.shared";
 
 const HOME_PREVIEW_COUNT = 3;
 
-export default function RandomPropertyList() {
+export default function RandomPropertyList({
+  pool,
+}: {
+  pool: PropertyShowcase[];
+}) {
   const [showcases, setShowcases] = useState<PropertyShowcase[] | null>(null);
 
   useEffect(() => {
-    setShowcases(pickRandomShowcases(HOME_PREVIEW_COUNT, PROPERTY_SHOWCASES));
-  }, []);
+    setShowcases(pickRandomShowcases(HOME_PREVIEW_COUNT, pool));
+  }, [pool]);
 
   if (!showcases) {
     return (

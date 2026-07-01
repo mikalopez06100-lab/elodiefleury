@@ -1,5 +1,5 @@
 import { Link } from "@/i18n/navigation";
-import type { BlogArticle } from "@/lib/blog";
+import type { BlogArticle } from "@/lib/blog.shared";
 import type { Locale } from "@/i18n/routing";
 
 type Props = {

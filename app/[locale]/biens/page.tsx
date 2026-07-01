@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import RevealOnScroll from "@/components/ui/RevealOnScroll";
 import PropertyGrid from "@/components/sections/PropertyGrid";
-import { biensIndexUrl, PROPERTY_SHOWCASES } from "@/lib/properties";
+import { biensIndexUrl, getPropertyShowcases } from "@/lib/properties";
 import { siteConfig } from "@/lib/config";
 import { routing, type Locale } from "@/i18n/routing";
 
@@ -38,6 +38,7 @@ export default async function BiensPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale as Locale);
   const t = await getTranslations("biens");
+  const showcases = await getPropertyShowcases();
 
   return (
     <div className="bg-tinta pt-[100px]">
@@ -57,7 +58,7 @@ export default async function BiensPage({ params }: Props) {
 
       <div className="mx-auto max-w-[1160px] px-5 py-12 md:px-10 md:py-16">
         <div className="flex flex-col gap-14">
-          {PROPERTY_SHOWCASES.map((showcase, i) => (
+          {showcases.map((showcase, i) => (
             <RevealOnScroll key={showcase.id} delay={i * 0.03}>
               <PropertyGrid showcase={showcase} />
             </RevealOnScroll>
