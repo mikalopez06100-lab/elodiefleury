@@ -1,12 +1,15 @@
-import { Suspense } from "react";
 import AdminLoginForm from "@/components/admin/AdminLoginForm";
 
-export default function AdminLoginPage() {
+type Props = {
+  searchParams: Promise<{ next?: string }>;
+};
+
+export default async function AdminLoginPage({ searchParams }: Props) {
+  const { next } = await searchParams;
+
   return (
-    <div className="min-h-screen bg-[#f4f1ec] px-5 py-10">
-      <Suspense>
-        <AdminLoginForm />
-      </Suspense>
+    <div className="px-5 py-10">
+      <AdminLoginForm nextPath={next ?? "/admin"} />
     </div>
   );
 }

@@ -7,7 +7,7 @@ import { verifySessionToken } from "./lib/admin/session";
 const intlMiddleware = createMiddleware(routing);
 
 function isAdminPublicPath(pathname: string): boolean {
-  return pathname === "/admin/login";
+  return pathname === "/admin/login" || pathname === "/api/admin/login";
 }
 
 function isAdminProtectedPath(pathname: string): boolean {

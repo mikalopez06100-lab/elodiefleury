@@ -1,11 +1,10 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 
-export default function AdminLoginForm() {
+export default function AdminLoginForm({ nextPath }: { nextPath: string }) {
   const router = useRouter();
-  const searchParams = useSearchParams();
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
@@ -22,13 +21,19 @@ export default function AdminLoginForm() {
         body: JSON.stringify({ password }),
       });
 
+      if (response.status === 503) {
+        setError(
+          "Administration non configurée. Contactez le support technique."
+        );
+        return;
+      }
+
       if (!response.ok) {
         setError("Mot de passe incorrect.");
         return;
       }
 
-      const next = searchParams.get("next") ?? "/admin";
-      router.push(next);
+      router.push(nextPath);
       router.refresh();
     } catch {
       setError("Connexion impossible. Réessayez.");
@@ -56,15 +61,15 @@ export default function AdminLoginForm() {
         type="password"
         value={password}
         onChange={(event) => setPassword(event.target.value)}
-        className="mb-4 w-full rounded-lg border border-[#ddd6cc] px-4 py-3 text-sm outline-none ring-[#8b6f61] focus:ring-2"
+        className="admin-input"
         autoComplete="current-password"
         required
       />
-      {error ? <p className="mb-4 text-sm text-red-600">{error}</p> : null}
+      {error ? <p className="mb-4 mt-4 text-sm text-red-600">{error}</p> : null}
       <button
         type="submit"
         disabled={loading}
-        className="w-full rounded-lg bg-[#8b6f61] px-4 py-3 text-sm font-semibold text-white transition hover:opacity-90 disabled:opacity-60"
+        className="admin-primary-btn mt-4 w-full"
       >
         {loading ? "Connexion…" : "Se connecter"}
       </button>
