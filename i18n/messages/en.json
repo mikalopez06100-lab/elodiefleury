@@ -61,18 +61,36 @@
     "concierge_desc": "Full short-term rental management: listing, bookings, premium check-in, hotel-grade upkeep. 20% flat fee."
   },
   "gallery": {
-    "eyebrow": "Featured property · Fabron · Nice",
-    "title": "Renovated apartment\nwith sea view.",
-    "villa_city": "Nice · Fabron",
-    "villa_title": "Terrace · Sea view",
-    "appt_city": "Nice · Fabron",
-    "appt_title": "Bright living room",
-    "terrain_city": "Nice · Fabron",
-    "terrain_title": "Designer kitchen",
-    "interieur_city": "Nice · Fabron",
-    "interieur_title": "Marble bathroom",
-    "luxe_city": "Nice · Fabron",
-    "luxe_title": "Premium finishes"
+    "eyebrow": "Property selection",
+    "title": "From Nice to Cagnes,\ncarefully presented homes.",
+    "fabron": {
+      "label": "Nice · Fabron",
+      "subtitle": "Renovated apartment · Sea view",
+      "villa_city": "Nice · Fabron",
+      "villa_title": "Terrace · Sea view",
+      "appt_city": "Nice · Fabron",
+      "appt_title": "Bright living room",
+      "terrain_city": "Nice · Fabron",
+      "terrain_title": "Designer kitchen",
+      "interieur_city": "Nice · Fabron",
+      "interieur_title": "Marble bathroom",
+      "luxe_city": "Nice · Fabron",
+      "luxe_title": "Premium finishes"
+    },
+    "cagnes": {
+      "label": "Cagnes-sur-Mer",
+      "subtitle": "Bright studio · Balcony",
+      "villa_city": "Cagnes-sur-Mer",
+      "villa_title": "Sunny balcony",
+      "appt_city": "Cagnes-sur-Mer",
+      "appt_title": "Living area · Open view",
+      "terrain_city": "Cagnes-sur-Mer",
+      "terrain_title": "Bright bedroom",
+      "interieur_city": "Cagnes-sur-Mer",
+      "interieur_title": "Equipped kitchen",
+      "luxe_city": "Cagnes-sur-Mer",
+      "luxe_title": "Living space"
+    }
   },
   "zones": {
     "eyebrow": "Coverage area",

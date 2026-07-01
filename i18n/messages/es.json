@@ -61,18 +61,36 @@
     "concierge_desc": "Gestión completa de alquiler vacacional: anuncio, reservas, recepción premium, mantenimiento hotelero. 20% fijo."
   },
   "gallery": {
-    "eyebrow": "Proyecto · Fabron · Niza",
-    "title": "Apartamento reformado\ncon vistas al mar.",
-    "villa_city": "Niza · Fabron",
-    "villa_title": "Terraza · Vista al mar",
-    "appt_city": "Niza · Fabron",
-    "appt_title": "Salón luminoso",
-    "terrain_city": "Niza · Fabron",
-    "terrain_title": "Cocina de diseño",
-    "interieur_city": "Niza · Fabron",
-    "interieur_title": "Baño en mármol",
-    "luxe_city": "Niza · Fabron",
-    "luxe_title": "Acabados premium"
+    "eyebrow": "Selección de inmuebles",
+    "title": "De Niza a Cagnes,\ninmuebles cuidadosamente presentados.",
+    "fabron": {
+      "label": "Niza · Fabron",
+      "subtitle": "Apartamento reformado · Vista al mar",
+      "villa_city": "Niza · Fabron",
+      "villa_title": "Terraza · Vista al mar",
+      "appt_city": "Niza · Fabron",
+      "appt_title": "Salón luminoso",
+      "terrain_city": "Niza · Fabron",
+      "terrain_title": "Cocina de diseño",
+      "interieur_city": "Niza · Fabron",
+      "interieur_title": "Baño en mármol",
+      "luxe_city": "Niza · Fabron",
+      "luxe_title": "Acabados premium"
+    },
+    "cagnes": {
+      "label": "Cagnes-sur-Mer",
+      "subtitle": "Estudio luminoso · Balcón",
+      "villa_city": "Cagnes-sur-Mer",
+      "villa_title": "Balcón soleado",
+      "appt_city": "Cagnes-sur-Mer",
+      "appt_title": "Salón · Vista despejada",
+      "terrain_city": "Cagnes-sur-Mer",
+      "terrain_title": "Dormitorio luminoso",
+      "interieur_city": "Cagnes-sur-Mer",
+      "interieur_title": "Cocina equipada",
+      "luxe_city": "Cagnes-sur-Mer",
+      "luxe_title": "Espacio de vida"
+    }
   },
   "zones": {
     "eyebrow": "Área de actividad",

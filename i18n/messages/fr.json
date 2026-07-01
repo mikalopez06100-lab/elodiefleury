@@ -61,18 +61,36 @@
     "concierge_desc": "Gestion complète en location saisonnière : annonce, réservations, accueil premium, entretien hôtelier. 20% fixe."
   },
   "gallery": {
-    "eyebrow": "Réalisation · Fabron · Nice",
-    "title": "Appartement rénové\navec vue mer.",
-    "villa_city": "Nice · Fabron",
-    "villa_title": "Terrasse · Vue mer",
-    "appt_city": "Nice · Fabron",
-    "appt_title": "Séjour lumineux",
-    "terrain_city": "Nice · Fabron",
-    "terrain_title": "Cuisine design",
-    "interieur_city": "Nice · Fabron",
-    "interieur_title": "Salle de bain marbre",
-    "luxe_city": "Nice · Fabron",
-    "luxe_title": "Finitions soignées"
+    "eyebrow": "Sélection de biens · Selección",
+    "title": "De Nice à Cagnes,\ndes biens soigneusement présentés.",
+    "fabron": {
+      "label": "Nice · Fabron",
+      "subtitle": "Appartement rénové · Vue mer",
+      "villa_city": "Nice · Fabron",
+      "villa_title": "Terrasse · Vue mer",
+      "appt_city": "Nice · Fabron",
+      "appt_title": "Séjour lumineux",
+      "terrain_city": "Nice · Fabron",
+      "terrain_title": "Cuisine design",
+      "interieur_city": "Nice · Fabron",
+      "interieur_title": "Salle de bain marbre",
+      "luxe_city": "Nice · Fabron",
+      "luxe_title": "Finitions soignées"
+    },
+    "cagnes": {
+      "label": "Cagnes-sur-Mer",
+      "subtitle": "Studio lumineux · Balcon",
+      "villa_city": "Cagnes-sur-Mer",
+      "villa_title": "Balcon ensoleillé",
+      "appt_city": "Cagnes-sur-Mer",
+      "appt_title": "Séjour · Vue dégagée",
+      "terrain_city": "Cagnes-sur-Mer",
+      "terrain_title": "Chambre lumineuse",
+      "interieur_city": "Cagnes-sur-Mer",
+      "interieur_title": "Cuisine équipée",
+      "luxe_city": "Cagnes-sur-Mer",
+      "luxe_title": "Espace de vie"
+    }
   },
   "zones": {
     "eyebrow": "Secteur · Área",
