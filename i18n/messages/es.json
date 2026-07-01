@@ -70,13 +70,13 @@
       "villa_city": "Niza · Fabron",
       "villa_title": "Terraza · Vista al mar",
       "appt_city": "Niza · Fabron",
-      "appt_title": "Salón luminoso",
+      "appt_title": "Cocina de diseño",
       "terrain_city": "Niza · Fabron",
-      "terrain_title": "Cocina de diseño",
+      "terrain_title": "Dormitorio · Decoración montaña",
       "interieur_city": "Niza · Fabron",
-      "interieur_title": "Baño en mármol",
+      "interieur_title": "Dormitorio · Camas gemelas",
       "luxe_city": "Niza · Fabron",
-      "luxe_title": "Acabados premium"
+      "luxe_title": "Entrada · Vista al mar"
     },
     "cagnes": {
       "label": "Cagnes-sur-Mer",
@@ -84,13 +84,13 @@
       "villa_city": "Cagnes-sur-Mer",
       "villa_title": "Balcón soleado",
       "appt_city": "Cagnes-sur-Mer",
-      "appt_title": "Salón · Vista despejada",
+      "appt_title": "Estudio · Balcón",
       "terrain_city": "Cagnes-sur-Mer",
       "terrain_title": "Dormitorio luminoso",
       "interieur_city": "Cagnes-sur-Mer",
       "interieur_title": "Cocina equipada",
       "luxe_city": "Cagnes-sur-Mer",
-      "luxe_title": "Espacio de vida"
+      "luxe_title": "Estudio · Comedor"
     },
     "poetes": {
       "label": "Niza · Barrio de los Poetas",
@@ -130,7 +130,7 @@
       "terrain_city": "Niza · Centro",
       "terrain_title": "Dormitorio de diseño",
       "interieur_city": "Niza · Centro",
-      "interieur_title": "Cocina equipada",
+      "interieur_title": "Terraza · Cocina abierta",
       "luxe_city": "Niza · Centro",
       "luxe_title": "Baño"
     },
@@ -138,7 +138,7 @@
       "label": "Antibes · Vista al mar",
       "subtitle": "Dúplex reformado · Frente al mar",
       "villa_city": "Antibes",
-      "villa_title": "Balcón · Mediterráneo",
+      "villa_title": "Salón · Vista al mar",
       "appt_city": "Antibes",
       "appt_title": "Salón luminoso",
       "terrain_city": "Antibes",
@@ -180,15 +180,15 @@
       "label": "Cannes · Centro",
       "subtitle": "Apartamento reformado · Parquet",
       "villa_city": "Cannes",
-      "villa_title": "Vista del barrio",
+      "villa_title": "Dormitorio · Armario empotrado",
       "appt_city": "Cannes",
-      "appt_title": "Salón luminoso",
+      "appt_title": "Dormitorio · Vista del barrio",
       "terrain_city": "Cannes",
-      "terrain_title": "Dormitorio parquet",
+      "terrain_title": "Cocina · Salón abierto",
       "interieur_city": "Cannes",
-      "interieur_title": "Cocina equipada",
+      "interieur_title": "Dormitorio · Escritorio",
       "luxe_city": "Cannes",
-      "luxe_title": "Baño"
+      "luxe_title": "Cocina equipada"
     },
     "saintlaurent": {
       "label": "Saint-Laurent-du-Var",

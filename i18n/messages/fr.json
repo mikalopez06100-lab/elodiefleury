@@ -70,13 +70,13 @@
       "villa_city": "Nice · Fabron",
       "villa_title": "Terrasse · Vue mer",
       "appt_city": "Nice · Fabron",
-      "appt_title": "Séjour lumineux",
+      "appt_title": "Cuisine design",
       "terrain_city": "Nice · Fabron",
-      "terrain_title": "Cuisine design",
+      "terrain_title": "Chambre · Déco montagne",
       "interieur_city": "Nice · Fabron",
-      "interieur_title": "Salle de bain marbre",
+      "interieur_title": "Chambre · Lits jumeaux",
       "luxe_city": "Nice · Fabron",
-      "luxe_title": "Finitions soignées"
+      "luxe_title": "Entrée · Vue mer"
     },
     "cagnes": {
       "label": "Cagnes-sur-Mer",
@@ -84,13 +84,13 @@
       "villa_city": "Cagnes-sur-Mer",
       "villa_title": "Balcon ensoleillé",
       "appt_city": "Cagnes-sur-Mer",
-      "appt_title": "Séjour · Vue dégagée",
+      "appt_title": "Studio · Balcon",
       "terrain_city": "Cagnes-sur-Mer",
       "terrain_title": "Chambre lumineuse",
       "interieur_city": "Cagnes-sur-Mer",
       "interieur_title": "Cuisine équipée",
       "luxe_city": "Cagnes-sur-Mer",
-      "luxe_title": "Espace de vie"
+      "luxe_title": "Studio · Coin repas"
     },
     "poetes": {
       "label": "Nice · Quartier des Poètes",
@@ -102,7 +102,7 @@
       "terrain_city": "Nice · Les Poètes",
       "terrain_title": "Chambre lumineuse",
       "interieur_city": "Nice · Les Poètes",
-      "interieur_title": "Coin cuisine",
+      "interieur_title": "Salon · Cuisine ouverte",
       "luxe_city": "Nice · Les Poètes",
       "luxe_title": "Salle de bain"
     },
@@ -130,7 +130,7 @@
       "terrain_city": "Nice · Centre",
       "terrain_title": "Chambre design",
       "interieur_city": "Nice · Centre",
-      "interieur_title": "Cuisine équipée",
+      "interieur_title": "Terrasse · Cuisine ouverte",
       "luxe_city": "Nice · Centre",
       "luxe_title": "Salle de bain"
     },
@@ -138,7 +138,7 @@
       "label": "Antibes · Vue mer",
       "subtitle": "Duplex rénové · Bord de mer",
       "villa_city": "Antibes",
-      "villa_title": "Balcon · Méditerranée",
+      "villa_title": "Séjour · Vue mer",
       "appt_city": "Antibes",
       "appt_title": "Séjour lumineux",
       "terrain_city": "Antibes",
@@ -180,15 +180,15 @@
       "label": "Cannes · Centre",
       "subtitle": "Appartement rénové · Parquet",
       "villa_city": "Cannes",
-      "villa_title": "Vue sur le quartier",
+      "villa_title": "Chambre · Dressing",
       "appt_city": "Cannes",
-      "appt_title": "Séjour lumineux",
+      "appt_title": "Chambre · Vue quartier",
       "terrain_city": "Cannes",
-      "terrain_title": "Chambre parquet",
+      "terrain_title": "Cuisine · Séjour ouvert",
       "interieur_city": "Cannes",
-      "interieur_title": "Cuisine équipée",
+      "interieur_title": "Chambre · Bureau",
       "luxe_city": "Cannes",
-      "luxe_title": "Salle de bain"
+      "luxe_title": "Cuisine équipée"
     },
     "saintlaurent": {
       "label": "Saint-Laurent-du-Var",
