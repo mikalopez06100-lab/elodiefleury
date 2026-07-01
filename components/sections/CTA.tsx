@@ -43,7 +43,7 @@ export default function CTA() {
     <section id="contact" className="relative overflow-hidden py-[88px] md:py-[116px]">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/cta-bg.jpg"
+          src="/images/cta-bg.png"
           alt=""
           fill
           sizes="100vw"

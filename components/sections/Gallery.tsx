@@ -5,13 +5,13 @@ import RevealOnScroll from "@/components/ui/RevealOnScroll";
 const properties = [
   {
     key: "villa" as const,
-    image: "villa-ext.jpg",
+    image: "fabron-terrace.png",
     span: true,
   },
-  { key: "appt" as const, image: "grand-sejour.jpg", span: false },
-  { key: "terrain" as const, image: "villa-ext2.jpg", span: false },
-  { key: "interieur" as const, image: "vue-village.jpg", span: false },
-  { key: "luxe" as const, image: "sdb-moderne.jpg", span: false },
+  { key: "appt" as const, image: "fabron-sejour.png", span: false },
+  { key: "terrain" as const, image: "fabron-cuisine.png", span: false },
+  { key: "interieur" as const, image: "fabron-sdb.png", span: false },
+  { key: "luxe" as const, image: "fabron-couloir.png", span: false },
 ];
 
 function Multiline({ text }: { text: string }) {

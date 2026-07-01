@@ -6,17 +6,17 @@ const services = [
   {
     key: "vente" as const,
     icon: "🏠",
-    image: "/images/properties/sejour-poutres.jpg",
+    image: "/images/properties/fabron-sejour.png",
   },
   {
     key: "achat" as const,
     icon: "🔑",
-    image: "/images/properties/cuisine-ouverte.jpg",
+    image: "/images/properties/fabron-cuisine.png",
   },
   {
     key: "concierge" as const,
     icon: "🌊",
-    image: "/images/properties/terrasse-jardin.jpg",
+    image: "/images/properties/fabron-terrace.png",
   },
 ];
 

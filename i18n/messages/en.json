@@ -61,18 +61,18 @@
     "concierge_desc": "Full short-term rental management: listing, bookings, premium check-in, hotel-grade upkeep. 20% flat fee."
   },
   "gallery": {
-    "eyebrow": "Property selection",
-    "title": "From Cannes to Menton,\nI know every market.",
-    "villa_city": "Cannes · €599,000",
-    "villa_title": "4-bed house · 102m² · garden",
-    "appt_city": "Nice · €275,000",
-    "appt_title": "3-bed apartment",
-    "terrain_city": "Aspremont · €275,000",
-    "terrain_title": "Land 1,500m²",
-    "interieur_city": "Antibes · €194,500",
-    "interieur_title": "2-bed · 42m²",
-    "luxe_city": "Menton · Exclusive",
-    "luxe_title": "8-bed villa · 295m²"
+    "eyebrow": "Featured property · Fabron · Nice",
+    "title": "Renovated apartment\nwith sea view.",
+    "villa_city": "Nice · Fabron",
+    "villa_title": "Terrace · Sea view",
+    "appt_city": "Nice · Fabron",
+    "appt_title": "Bright living room",
+    "terrain_city": "Nice · Fabron",
+    "terrain_title": "Designer kitchen",
+    "interieur_city": "Nice · Fabron",
+    "interieur_title": "Marble bathroom",
+    "luxe_city": "Nice · Fabron",
+    "luxe_title": "Premium finishes"
   },
   "zones": {
     "eyebrow": "Coverage area",

@@ -61,18 +61,18 @@
     "concierge_desc": "Gestión completa de alquiler vacacional: anuncio, reservas, recepción premium, mantenimiento hotelero. 20% fijo."
   },
   "gallery": {
-    "eyebrow": "Selección de inmuebles",
-    "title": "De Cannes a Menton,\nconozco cada mercado.",
-    "villa_city": "Cannes · 599 000 €",
-    "villa_title": "Casa 4 hab · 102m² · jardín",
-    "appt_city": "Niza · 275 000 €",
-    "appt_title": "Apartamento 3 hab",
-    "terrain_city": "Aspremont · 275 000 €",
-    "terrain_title": "Terreno 1 500m²",
-    "interieur_city": "Antibes · 194 500 €",
-    "interieur_title": "2 hab · 42m²",
-    "luxe_city": "Menton · Exclusividad",
-    "luxe_title": "Villa 8 hab · 295m²"
+    "eyebrow": "Proyecto · Fabron · Niza",
+    "title": "Apartamento reformado\ncon vistas al mar.",
+    "villa_city": "Niza · Fabron",
+    "villa_title": "Terraza · Vista al mar",
+    "appt_city": "Niza · Fabron",
+    "appt_title": "Salón luminoso",
+    "terrain_city": "Niza · Fabron",
+    "terrain_title": "Cocina de diseño",
+    "interieur_city": "Niza · Fabron",
+    "interieur_title": "Baño en mármol",
+    "luxe_city": "Niza · Fabron",
+    "luxe_title": "Acabados premium"
   },
   "zones": {
     "eyebrow": "Área de actividad",
