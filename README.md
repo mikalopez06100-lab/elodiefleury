@@ -16,9 +16,9 @@ npm run start
 Copier `.env.example` vers `.env.local` :
 
 ```env
-NEXT_PUBLIC_SITE_URL=https://elodiecoteazur.fr
-NEXT_PUBLIC_WHATSAPP_NUMBER=33778235486
-NEXT_PUBLIC_PLAUSIBLE_DOMAIN=elodiecoteazur.fr
+NEXT_PUBLIC_SITE_URL=https://elodiefleury.fr
+NEXT_PUBLIC_WHATSAPP_NUMBER=33627121413
+NEXT_PUBLIC_PLAUSIBLE_DOMAIN=elodiefleury.fr
 ```
 
 ## Ajouter une photo de bien

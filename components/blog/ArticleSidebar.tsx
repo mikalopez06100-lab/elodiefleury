@@ -53,7 +53,7 @@ export default function ArticleSidebar({
           href="/"
           className="mt-4 inline-block text-[0.78rem] font-semibold text-cal/80 transition-colors hover:text-cal"
         >
-          elodiecoteazur.fr →
+          elodiefleury.fr →
         </Link>
       </div>
     </aside>

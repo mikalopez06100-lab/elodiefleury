@@ -22,7 +22,7 @@ export default function CTA() {
     {
       icon: "💬",
       label: t("whatsapp_label"),
-      value: "+33 7 78 23 54 86",
+      value: "+33 6 27 12 14 13",
       href: whatsappUrl(locale),
     },
     {

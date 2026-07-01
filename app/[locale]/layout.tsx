@@ -84,7 +84,7 @@ const jsonLd = {
   description:
     "Agente immobilière indépendante bilingue FR/ES sur la Côte d'Azur, de Cannes à Menton. Vente, achat et conciergerie saisonnière.",
   url: siteConfig.url,
-  telephone: "+33778235486",
+  telephone: "+33627121413",
   email: siteConfig.email,
   image: `${siteConfig.url}/images/profile-elodie.jpg`,
   address: {

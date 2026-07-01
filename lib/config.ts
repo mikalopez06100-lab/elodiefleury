@@ -2,16 +2,16 @@ export const siteConfig = {
   name: "Elodie Fleury",
   tagline: "Immobilier · Conciergerie",
   slogan: "Tu casa, mi pasión",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://elodiecoteazur.fr",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://elodiefleury.fr",
   whatsappNumber:
-    process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "33778235486",
-  email: "hello@elodiefleury.fr",
+    process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "33627121413",
+  email: "info@elodiefleury.fr",
   instagram: "https://www.instagram.com/immo_elo",
   yourbnb: "https://www.yourbnb06.fr",
   gmb: "https://g.page/r/",
   rsac: "925 155 855",
   plausibleDomain:
-    process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN ?? "elodiecoteazur.fr",
+    process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN ?? "elodiefleury.fr",
 } as const;
 
 export const whatsappMessages = {
