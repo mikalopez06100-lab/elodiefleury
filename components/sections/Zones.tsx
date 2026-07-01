@@ -3,10 +3,30 @@ import { useTranslations } from "next-intl";
 import RevealOnScroll from "@/components/ui/RevealOnScroll";
 
 const zones = [
-  { key: "cannes" as const, image: "cagnes.jpg", label: "Cannes" },
-  { key: "nice" as const, image: "nice.jpg", label: "Nice" },
-  { key: "antibes" as const, image: "antibes.jpg", label: "Antibes" },
-  { key: "menton" as const, image: "biot.jpg", label: "Menton" },
+  {
+    key: "cannes" as const,
+    image: "/images/properties/cannes-sejour.png",
+    label: "Cannes",
+    objectPosition: "center 40%",
+  },
+  {
+    key: "nice" as const,
+    image: "/images/properties/fabron-terrace.png",
+    label: "Nice",
+    objectPosition: "center 55%",
+  },
+  {
+    key: "antibes" as const,
+    image: "/images/properties/antibes-balcon.png",
+    label: "Antibes",
+    objectPosition: "center center",
+  },
+  {
+    key: "menton" as const,
+    image: "/images/properties/saintlaurent-balcon.png",
+    label: "Menton",
+    objectPosition: "center 35%",
+  },
 ];
 
 function Multiline({ text }: { text: string }) {
@@ -40,11 +60,12 @@ export default function Zones() {
               className="group relative h-[200px] overflow-hidden md:h-[255px]"
             >
               <Image
-                src={`/images/zones/${zone.image}`}
-                alt={zone.label}
+                src={zone.image}
+                alt={`${zone.label} — bien présenté par Elodie Fleury`}
                 fill
                 sizes="(max-width: 768px) 50vw, 25vw"
                 className="object-cover brightness-[1.02] contrast-[0.95] transition-transform duration-[800ms] ease-out-expo group-hover:scale-[1.07]"
+                style={{ objectPosition: zone.objectPosition }}
               />
               <div
                 className="absolute inset-0"
