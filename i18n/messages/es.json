@@ -146,6 +146,20 @@
       "interieur_title": "Cocina equipada",
       "luxe_city": "Antibes",
       "luxe_title": "Baño"
+    },
+    "riquier": {
+      "label": "Niza · Riquier",
+      "subtitle": "Dúplex reformado · Centro",
+      "villa_city": "Niza",
+      "villa_title": "Balcón · Vista abierta",
+      "appt_city": "Niza",
+      "appt_title": "Salón luminoso",
+      "terrain_city": "Niza",
+      "terrain_title": "Dormitorio en altillo",
+      "interieur_city": "Niza",
+      "interieur_title": "Cocina equipada",
+      "luxe_city": "Niza",
+      "luxe_title": "Baño"
     }
   },
   "zones": {

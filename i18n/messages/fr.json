@@ -146,6 +146,20 @@
       "interieur_title": "Cuisine équipée",
       "luxe_city": "Antibes",
       "luxe_title": "Salle de bain"
+    },
+    "riquier": {
+      "label": "Nice · Riquier",
+      "subtitle": "Duplex rénové · Centre-ville",
+      "villa_city": "Nice",
+      "villa_title": "Balcon · Vue dégagée",
+      "appt_city": "Nice",
+      "appt_title": "Séjour lumineux",
+      "terrain_city": "Nice",
+      "terrain_title": "Chambre mezzanine",
+      "interieur_city": "Nice",
+      "interieur_title": "Cuisine équipée",
+      "luxe_city": "Nice",
+      "luxe_title": "Salle de bain"
     }
   },
   "zones": {
