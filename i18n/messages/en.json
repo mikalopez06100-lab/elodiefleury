@@ -132,6 +132,20 @@
       "interieur_title": "Equipped kitchen",
       "luxe_city": "Nice · City centre",
       "luxe_title": "Bathroom"
+    },
+    "antibes": {
+      "label": "Antibes · Sea view",
+      "subtitle": "Renovated duplex · Seaside",
+      "villa_city": "Antibes",
+      "villa_title": "Balcony · Mediterranean",
+      "appt_city": "Antibes",
+      "appt_title": "Bright living area",
+      "terrain_city": "Antibes",
+      "terrain_title": "Mezzanine bedroom",
+      "interieur_city": "Antibes",
+      "interieur_title": "Equipped kitchen",
+      "luxe_city": "Antibes",
+      "luxe_title": "Bathroom"
     }
   },
   "zones": {

@@ -132,6 +132,20 @@
       "interieur_title": "Cocina equipada",
       "luxe_city": "Niza · Centro",
       "luxe_title": "Baño"
+    },
+    "antibes": {
+      "label": "Antibes · Vista al mar",
+      "subtitle": "Dúplex reformado · Frente al mar",
+      "villa_city": "Antibes",
+      "villa_title": "Balcón · Mediterráneo",
+      "appt_city": "Antibes",
+      "appt_title": "Salón luminoso",
+      "terrain_city": "Antibes",
+      "terrain_title": "Dormitorio en altillo",
+      "interieur_city": "Antibes",
+      "interieur_title": "Cocina equipada",
+      "luxe_city": "Antibes",
+      "luxe_title": "Baño"
     }
   },
   "zones": {

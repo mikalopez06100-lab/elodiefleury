@@ -5,7 +5,7 @@ import RevealOnScroll from "@/components/ui/RevealOnScroll";
 type ImageKey = "villa" | "appt" | "terrain" | "interieur" | "luxe";
 
 const showcases: {
-  id: "fabron" | "cagnes" | "poetes" | "clemenceau" | "pierlas";
+  id: "fabron" | "cagnes" | "poetes" | "clemenceau" | "pierlas" | "antibes";
   images: { key: ImageKey; file: string; span: boolean }[];
 }[] = [
   {
@@ -58,6 +58,16 @@ const showcases: {
       { key: "luxe", file: "pierlas-sdb.png", span: false },
     ],
   },
+  {
+    id: "antibes",
+    images: [
+      { key: "villa", file: "antibes-balcon.png", span: true },
+      { key: "appt", file: "antibes-sejour.png", span: false },
+      { key: "terrain", file: "antibes-chambre.png", span: false },
+      { key: "interieur", file: "antibes-cuisine.png", span: false },
+      { key: "luxe", file: "antibes-sdb.png", span: false },
+    ],
+  },
 ];
 
 function Multiline({ text }: { text: string }) {
@@ -74,7 +84,7 @@ function PropertyGrid({
   images,
   t,
 }: {
-  id: "fabron" | "cagnes" | "poetes" | "clemenceau" | "pierlas";
+  id: "fabron" | "cagnes" | "poetes" | "clemenceau" | "pierlas" | "antibes";
   images: (typeof showcases)[number]["images"];
   t: ReturnType<typeof useTranslations<"gallery">>;
 }) {

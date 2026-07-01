@@ -132,6 +132,20 @@
       "interieur_title": "Cuisine équipée",
       "luxe_city": "Nice · Centre",
       "luxe_title": "Salle de bain"
+    },
+    "antibes": {
+      "label": "Antibes · Vue mer",
+      "subtitle": "Duplex rénové · Bord de mer",
+      "villa_city": "Antibes",
+      "villa_title": "Balcon · Méditerranée",
+      "appt_city": "Antibes",
+      "appt_title": "Séjour lumineux",
+      "terrain_city": "Antibes",
+      "terrain_title": "Chambre mezzanine",
+      "interieur_city": "Antibes",
+      "interieur_title": "Cuisine équipée",
+      "luxe_city": "Antibes",
+      "luxe_title": "Salle de bain"
     }
   },
   "zones": {
