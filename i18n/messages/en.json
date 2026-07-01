@@ -4,6 +4,7 @@
     "services": "Services",
     "biens": "Properties",
     "avis": "Reviews",
+    "blog": "Blog",
     "contact": "Contact",
     "cta": "WhatsApp →",
     "menuOpen": "Open menu",
@@ -154,5 +155,28 @@
   "metadata": {
     "title": "Elodie Fleury — Real Estate & Concierge · French Riviera",
     "description": "Independent bilingual real estate agent on the French Riviera, from Cannes to Menton. Buy, sell and short-term rental management. Tu casa, mi pasión."
+  },
+  "blog": {
+    "meta_title": "Property Blog — French Riviera Advice | Elodie Fleury",
+    "meta_description": "Property advice for buying, selling and investing on the French Riviera. Markets, prices, tax and bilingual FR/ES expert insights.",
+    "eyebrow": "Resources · Advice",
+    "title": "Property blog",
+    "subtitle": "Practical guides for buying, selling and investing on the French Riviera — from Cannes to Menton. By a bilingual French-Spanish expert.",
+    "read_more": "Read article",
+    "min_read": "min",
+    "breadcrumb_home": "Home",
+    "breadcrumb_blog": "Blog",
+    "author": "By Elodie Fleury",
+    "lang_fr": "FR",
+    "lang_es": "ES",
+    "lang_en": "EN",
+    "faq_title": "Frequently asked questions",
+    "cta_title": "Your project deserves an expert.",
+    "cta_body": "Buying, selling, rental management — reply within 2 hours in English, French or Spanish.",
+    "cta_whatsapp": "WhatsApp",
+    "cta_email": "Email",
+    "sidebar_contact": "Contact me",
+    "sidebar_guide": "Free buyer's guide",
+    "related_title": "You may also like"
   }
 }

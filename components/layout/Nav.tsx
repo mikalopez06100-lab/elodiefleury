@@ -2,25 +2,28 @@
 
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 import BrandLogo from "@/components/brand/BrandLogo";
 import { whatsappUrl } from "@/lib/config";
 import { useLocale } from "next-intl";
 import type { Locale } from "@/i18n/routing";
 
 const navLinks = [
-  { href: "#profil", key: "profil" as const },
-  { href: "#services", key: "services" as const },
-  { href: "#biens", key: "biens" as const },
-  { href: "#avis", key: "avis" as const },
-  { href: "#contact", key: "contact" as const },
+  { href: "/#profil", key: "profil" as const, isHash: true },
+  { href: "/#services", key: "services" as const, isHash: true },
+  { href: "/#biens", key: "biens" as const, isHash: true },
+  { href: "/#avis", key: "avis" as const, isHash: true },
+  { href: "/blog", key: "blog" as const, isHash: false },
+  { href: "/#contact", key: "contact" as const, isHash: true },
 ];
 
 export default function Nav() {
   const t = useTranslations("nav");
   const locale = useLocale() as Locale;
+  const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const isBlog = pathname.startsWith("/blog");
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
@@ -36,11 +39,16 @@ export default function Nav() {
     };
   }, [menuOpen]);
 
+  const linkClass = (active: boolean) =>
+    `text-[0.74rem] font-semibold uppercase tracking-[0.14em] transition-colors ${
+      active ? "text-sol" : "text-cal/95 hover:text-sol"
+    }`;
+
   return (
     <>
       <nav
         className={`fixed left-0 right-0 top-9 z-[200] border-b transition-all duration-350 ease-out-expo ${
-          scrolled
+          scrolled || isBlog
             ? "border-white/10 bg-tinta/97 shadow-[0_4px_24px_rgba(42,38,34,0.22)] backdrop-blur-md"
             : "border-white/8 bg-tinta/92 backdrop-blur-md"
         }`}
@@ -51,15 +59,25 @@ export default function Nav() {
           </Link>
 
           <div className="hidden items-center gap-8 md:flex">
-            {navLinks.map((link) => (
-              <a
-                key={link.key}
-                href={link.href}
-                className="text-[0.74rem] font-semibold uppercase tracking-[0.14em] text-cal/95 transition-colors hover:text-sol"
-              >
-                {t(link.key)}
-              </a>
-            ))}
+            {navLinks.map((link) =>
+              link.isHash ? (
+                <Link
+                  key={link.key}
+                  href={link.href}
+                  className={linkClass(false)}
+                >
+                  {t(link.key)}
+                </Link>
+              ) : (
+                <Link
+                  key={link.key}
+                  href={link.href}
+                  className={linkClass(isBlog)}
+                >
+                  {t(link.key)}
+                </Link>
+              )
+            )}
             <a
               href={whatsappUrl(locale)}
               target="_blank"
@@ -94,14 +112,14 @@ export default function Nav() {
         <div className="fixed inset-0 top-[100px] z-[199] bg-tinta/98 backdrop-blur-md md:hidden">
           <div className="flex flex-col gap-6 px-8 py-10">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.key}
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
                 className="font-display text-2xl text-white"
               >
                 {t(link.key)}
-              </a>
+              </Link>
             ))}
             <a
               href={whatsappUrl(locale)}

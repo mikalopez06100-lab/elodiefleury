@@ -4,6 +4,7 @@
     "services": "Services",
     "biens": "Biens",
     "avis": "Avis",
+    "blog": "Blog",
     "contact": "Contact",
     "cta": "WhatsApp →",
     "menuOpen": "Ouvrir le menu",
@@ -154,5 +155,28 @@
   "metadata": {
     "title": "Elodie Fleury — Immobilier & Conciergerie · Côte d'Azur",
     "description": "Agente immobilière indépendante bilingue sur la Côte d'Azur, de Cannes à Menton. Vente, achat et conciergerie saisonnière. Tu casa, mi pasión."
+  },
+  "blog": {
+    "meta_title": "Blog immobilier — Conseils Côte d'Azur | Elodie Fleury",
+    "meta_description": "Conseils immobiliers pour acheter, vendre et investir sur la Côte d'Azur. Marchés, prix, fiscalité et conseils d'experte bilingue FR/ES.",
+    "eyebrow": "Ressources · Conseils",
+    "title": "Blog immobilier",
+    "subtitle": "Guides pratiques pour acheter, vendre et investir sur la Côte d'Azur — de Cannes à Menton. Rédigés par une experte bilingue français-espagnol.",
+    "read_more": "Lire l'article",
+    "min_read": "min",
+    "breadcrumb_home": "Accueil",
+    "breadcrumb_blog": "Blog",
+    "author": "Par Elodie Fleury",
+    "lang_fr": "FR",
+    "lang_es": "ES",
+    "lang_en": "EN",
+    "faq_title": "Questions fréquentes",
+    "cta_title": "Votre projet mérite une experte.",
+    "cta_body": "Achat, vente, gestion saisonnière — réponse sous 2h en français ou en espagnol.",
+    "cta_whatsapp": "WhatsApp",
+    "cta_email": "Email",
+    "sidebar_contact": "Me contacter",
+    "sidebar_guide": "Guide acquéreur gratuit",
+    "related_title": "À lire aussi"
   }
 }

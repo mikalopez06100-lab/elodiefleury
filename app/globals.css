@@ -6,6 +6,61 @@ html {
   scroll-behavior: smooth;
 }
 
+@layer components {
+  .article-prose h3 {
+    @apply mb-3 mt-8 font-display text-[1.3rem] font-semibold leading-snug text-mar first:mt-0;
+  }
+
+  .article-prose h4 {
+    @apply mb-2 mt-5 text-[0.95rem] font-semibold text-mar;
+  }
+
+  .article-prose p {
+    @apply mb-3.5 text-[0.93rem] leading-[1.8] text-tinta-muted;
+  }
+
+  .article-prose strong {
+    @apply font-semibold text-mar;
+  }
+
+  .article-prose ul,
+  .article-prose ol {
+    @apply mb-4 ml-5 text-tinta-muted;
+  }
+
+  .article-prose li {
+    @apply mb-1.5 text-[0.93rem] leading-[1.75];
+  }
+
+  .article-prose .intro {
+    @apply mb-7 border-l-[3px] border-sol pl-5 font-display text-[1.05rem] italic leading-relaxed text-olivo;
+  }
+
+  .article-prose .highlight {
+    @apply my-6 rounded-lg bg-mar px-6 py-5 text-cal;
+  }
+
+  .article-prose .highlight strong {
+    @apply mb-1.5 block text-[0.8rem] font-semibold uppercase tracking-wider text-sol;
+  }
+
+  .article-prose .highlight p {
+    @apply mb-0 text-[0.9rem] text-cal/85;
+  }
+
+  .article-prose .cta-inline {
+    @apply my-6 rounded-lg border border-sol bg-sol-soft px-6 py-5;
+  }
+
+  .article-prose .cta-inline strong {
+    @apply mb-1 block text-mar;
+  }
+
+  .article-prose .cta-inline p {
+    @apply mb-0 text-[0.875rem] text-tinta-muted;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

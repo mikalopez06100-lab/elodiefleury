@@ -4,6 +4,7 @@
     "services": "Servicios",
     "biens": "Inmuebles",
     "avis": "Reseñas",
+    "blog": "Blog",
     "contact": "Contacto",
     "cta": "WhatsApp →",
     "menuOpen": "Abrir menú",
@@ -154,5 +155,28 @@
   "metadata": {
     "title": "Elodie Fleury — Inmobiliaria & Conciergería · Costa Azul",
     "description": "Agente inmobiliaria independiente bilingüe en la Costa Azul, de Cannes a Menton. Compra, venta y conserjería vacacional. Tu casa, mi pasión."
+  },
+  "blog": {
+    "meta_title": "Blog inmobiliario — Consejos Costa Azul | Elodie Fleury",
+    "meta_description": "Consejos inmobiliarios para comprar, vender e invertir en la Costa Azul. Mercados, precios, fiscalidad y consejos de experta bilingüe FR/ES.",
+    "eyebrow": "Recursos · Consejos",
+    "title": "Blog inmobiliario",
+    "subtitle": "Guías prácticas para comprar, vender e invertir en la Costa Azul — de Cannes a Menton. Por una experta bilingüe francés-español.",
+    "read_more": "Leer artículo",
+    "min_read": "min",
+    "breadcrumb_home": "Inicio",
+    "breadcrumb_blog": "Blog",
+    "author": "Por Elodie Fleury",
+    "lang_fr": "FR",
+    "lang_es": "ES",
+    "lang_en": "EN",
+    "faq_title": "Preguntas frecuentes",
+    "cta_title": "Su proyecto merece una experta.",
+    "cta_body": "Compra, venta, gestión vacacional — respuesta en menos de 2 horas en español o francés.",
+    "cta_whatsapp": "WhatsApp",
+    "cta_email": "Email",
+    "sidebar_contact": "Contactarme",
+    "sidebar_guide": "Guía gratuita compradores",
+    "related_title": "También le puede interesar"
   }
 }
