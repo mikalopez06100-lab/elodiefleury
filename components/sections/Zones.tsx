@@ -22,10 +22,10 @@ const zones = [
     objectPosition: "center center",
   },
   {
-    key: "menton" as const,
-    image: "/images/properties/saintlaurent-balcon.png",
-    label: "Menton",
-    objectPosition: "center 35%",
+    key: "cagnes" as const,
+    image: "/images/properties/cagnes-balcon.png",
+    label: "Cagnes-sur-Mer",
+    objectPosition: "center 45%",
   },
 ];
 
