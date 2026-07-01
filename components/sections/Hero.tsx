@@ -54,13 +54,13 @@ export default function Hero() {
           style={prefersReducedMotion ? undefined : { y }}
         >
           <Image
-            src="/images/hero-nice.jpg"
-            alt="Côte d'Azur, de Cannes à Menton"
+            src="/images/hero-cagnes.png"
+            alt="Salon et cuisine rénovés, Cagnes-sur-Mer"
             fill
             priority
             quality={80}
             sizes="100vw"
-            className="object-cover object-[center_40%] brightness-[0.85] contrast-[0.98] saturate-[0.82]"
+            className="object-cover object-[center_45%] brightness-[0.88] contrast-[0.98] saturate-[0.9]"
           />
         </motion.div>
         <div
