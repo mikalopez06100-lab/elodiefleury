@@ -9,7 +9,8 @@ export type PropertyId =
   | "antibes"
   | "riquier"
   | "prefecture"
-  | "cannes";
+  | "cannes"
+  | "saintlaurent";
 
 export type PropertyShowcase = {
   id: PropertyId;
@@ -105,6 +106,16 @@ export const PROPERTY_SHOWCASES: PropertyShowcase[] = [
       { key: "terrain", file: "cannes-chambre.png", span: false },
       { key: "interieur", file: "cannes-cuisine.png", span: false },
       { key: "luxe", file: "cannes-sdb.png", span: false },
+    ],
+  },
+  {
+    id: "saintlaurent",
+    images: [
+      { key: "villa", file: "saintlaurent-balcon.png", span: true },
+      { key: "appt", file: "saintlaurent-sejour.png", span: false },
+      { key: "terrain", file: "saintlaurent-salon.png", span: false },
+      { key: "interieur", file: "saintlaurent-cuisine.png", span: false },
+      { key: "luxe", file: "saintlaurent-sdb.png", span: false },
     ],
   },
 ];

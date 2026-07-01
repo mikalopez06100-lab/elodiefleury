@@ -189,6 +189,20 @@
       "interieur_title": "Cuisine équipée",
       "luxe_city": "Cannes",
       "luxe_title": "Salle de bain"
+    },
+    "saintlaurent": {
+      "label": "Saint-Laurent-du-Var",
+      "subtitle": "Appartement lumineux · Balcon vue mer",
+      "villa_city": "Saint-Laurent-du-Var",
+      "villa_title": "Balcon · Vue mer",
+      "appt_city": "Saint-Laurent-du-Var",
+      "appt_title": "Séjour lumineux",
+      "terrain_city": "Saint-Laurent-du-Var",
+      "terrain_title": "Salon · Coin repas",
+      "interieur_city": "Saint-Laurent-du-Var",
+      "interieur_title": "Cuisine équipée",
+      "luxe_city": "Saint-Laurent-du-Var",
+      "luxe_title": "Salle de bain"
     }
   },
   "biens": {
