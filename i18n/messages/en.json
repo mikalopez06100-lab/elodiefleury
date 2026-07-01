@@ -104,6 +104,20 @@
       "interieur_title": "Kitchen area",
       "luxe_city": "Nice · Les Poètes",
       "luxe_title": "Bathroom"
+    },
+    "clemenceau": {
+      "label": "Nice · Rue Clemenceau",
+      "subtitle": "Renovated studio · City centre",
+      "villa_city": "Nice · City centre",
+      "villa_title": "Balcony · Belle Époque facade",
+      "appt_city": "Nice · City centre",
+      "appt_title": "Designer living area",
+      "terrain_city": "Nice · City centre",
+      "terrain_title": "Sleeping nook",
+      "interieur_city": "Nice · City centre",
+      "interieur_title": "Equipped kitchen",
+      "luxe_city": "Nice · City centre",
+      "luxe_title": "Marble bathroom"
     }
   },
   "zones": {

@@ -104,6 +104,20 @@
       "interieur_title": "Zona cocina",
       "luxe_city": "Niza · Les Poètes",
       "luxe_title": "Baño"
+    },
+    "clemenceau": {
+      "label": "Niza · Rue Clemenceau",
+      "subtitle": "Estudio reformado · Centro ciudad",
+      "villa_city": "Niza · Centro",
+      "villa_title": "Balcón · Fachada Belle Époque",
+      "appt_city": "Niza · Centro",
+      "appt_title": "Salón de diseño",
+      "terrain_city": "Niza · Centro",
+      "terrain_title": "Zona de descanso",
+      "interieur_city": "Niza · Centro",
+      "interieur_title": "Cocina equipada",
+      "luxe_city": "Niza · Centro",
+      "luxe_title": "Baño en mármol"
     }
   },
   "zones": {

@@ -104,6 +104,20 @@
       "interieur_title": "Coin cuisine",
       "luxe_city": "Nice · Les Poètes",
       "luxe_title": "Salle de bain"
+    },
+    "clemenceau": {
+      "label": "Nice · Rue Clemenceau",
+      "subtitle": "Studio rénové · Centre-ville",
+      "villa_city": "Nice · Centre",
+      "villa_title": "Balcon · Façade Belle Époque",
+      "appt_city": "Nice · Centre",
+      "appt_title": "Séjour design",
+      "terrain_city": "Nice · Centre",
+      "terrain_title": "Coin nuit",
+      "interieur_city": "Nice · Centre",
+      "interieur_title": "Cuisine équipée",
+      "luxe_city": "Nice · Centre",
+      "luxe_title": "Salle de bain marbre"
     }
   },
   "zones": {
